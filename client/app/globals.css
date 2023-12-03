@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+html,
+body {
+  background-color: #dee7ef;
+}
+
+.bg-image1 {
+  background-image: url("../public/bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-tech {
+  background-image: url("../public/header-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-books {
+  background-image: url("../public/banner-books2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-technology {
+  background-image: url("../public/hero-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-about {
+  background-image: url("../public/about-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
