@@ -134,7 +134,7 @@ function OurStory() {
 
         <div className=" bg-gray-700 ">
           <div className="mx-auto max-w-7xl px-2 lg:px-12 ">
-            <div className=" ms-6 text-gray-100 py-12 grid max-w-lg tracking-wider font-medium text-lg grid-cols-3 md:grid-cols-3 items-center gap-x-4 gap-y-10 sm:max-w-xl sm:grid-cols-2 sm:gap-x-4 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            <div className=" ms-6 text-gray-100 py-12 grid max-w-lg tracking-wider font-medium text-lg grid-cols-3 md:grid-cols-3 items-center gap-x-4 gap-y-10 sm:max-w-xl sm:col-1 sm:gap-x-4 lg:mx-0 lg:max-w-none lg:grid-cols-4">
               
              <p className="border-l-4 border-yellow-500 ps-3">Fearless Creation</p>
               <p className="border-l-4 border-yellow-500 ps-3">Continuous Improvement</p>

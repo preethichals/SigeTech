@@ -12,7 +12,7 @@ function Courses() {
           " Full-Stack Robot Developer "
         </p>
 
-<p className="mt-2 pb-4 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
+<p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
             This program equips the participants to think and innovate new
             robotic products that can be deployed to solve or automate a
             real-world problem.<span className="font-semibold"> This program focuses mainly on</span>  <span className="text-yellow-500 font-semibold "> 'The process of
@@ -34,7 +34,7 @@ function Courses() {
    
             
           </p>
-          <p className=" font-medium text-gray-800 mt-2 mb-4">
+          <p className="p-4 font-medium text-gray-800 mt-2 mb-4">
             
             
             <span className="tracking-wide">

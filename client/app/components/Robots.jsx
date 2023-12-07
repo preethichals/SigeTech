@@ -77,7 +77,7 @@ function Robots() {
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl py-2 sm:py-4 lg:max-w-none lg:py-2">
               <div className="mx-auto my-1 p-6  rounded-lg">
-                <h4 className="text-3xl text-center font-light tracking-widest uppercase bg-emerald-600 text-gray-100 sm:text-3xl py-3">
+                <h4 className="text-3xl text-center font-light tracking-widest uppercase bg-emerald-600 text-gray-100 sm:text-2xl py-3">
                   Is your robotic thirst ever been served properly?
                 </h4>
                 <p className="mt-6 uppercase sm:text-xl text-xl tracking-widest font-semibold pt-4 text-neutral-800 text-center leading-loose border-t border-gray-400">

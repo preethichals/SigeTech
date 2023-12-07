@@ -15,7 +15,7 @@ function Product() {
               <h4 className="text-4xl border-b pb-4 border-gray-200 text-center font-medium tracking-widest uppercase bg-gray-700  text-white sm:text-2xl pt-3">
           Our Products
         </h4>
-              <h2 className="text-xl mt-8 mb-8 font-medium text-white sm:text-xl">
+              <h2 className="text-xl mt-8 mb-8 p-4 font-medium text-white sm:text-xl">
                 <span className=" tracking-wider">We develop products for </span>
                 <span className="tracking-wider text-yellow-500">
                   Educationists, Hobbyists, Researchers, and Students
