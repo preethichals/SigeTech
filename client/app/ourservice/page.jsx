@@ -6,7 +6,7 @@ import Service from "../components/Service";
 function page() {
   return (
     <>
-    <div className="bg-white py-24 sm:py-32">
+    <div className=" bg-image1 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="lg:text-5xl font-bold tracking-wide text-gray-900 sm:text-4xl flex-wrap">

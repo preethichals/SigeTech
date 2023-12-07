@@ -9,7 +9,7 @@ const navigation = [
   { name: "Home", href: "/" },
    { name: "About Us", href: "/about" },
   { name: "Services", href: "/ourservice" },
-  { name: "Products", href: "/ourservice" },
+  { name: "Shop Now", href: "/ourservice" },
   { name: "Contact Us", href: "/contact" },
 ];
 
@@ -19,7 +19,7 @@ function Header() {
   return (
     <>
       <div className=" bg-neutral-900 container mx-auto max-w-full shadow dark:bg-gray-900">
-        <div className="w-full max-w-screen-xl mx-4 py-1 text-slate-50">
+        <div className="w-full max-w-screen-xl mx-8 py-1 text-slate-50">
           {/* For Advertisement */}
           <div className="sm:flex sm:justify-between text-sm flex font-light">
             <Link
@@ -35,7 +35,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <header className="inset-x-0 top-0 z-50 sticky opacity-90 bg-white border-b-4 border-gray-500">
+      <header className="inset-x-0 top-0 z-50 pe-7 sticky opacity-90 bg-white border-b-4 border-gray-500">
         <nav
           className="flex items-center justify-between px-8 py-2 lg:px-4"
           aria-label="Global"
@@ -66,7 +66,7 @@ function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:bg-gray-900 hover:text-gray-50 rounded-xl hover:font-medium bg-white px-4 py-2 inline-block text-lg font-medium tracking-wide text-gray-900 "
+                className="hover:bg-gray-900 hover:text-gray-50 transition ease-in-out delay-150  hover:translate-y-1 hover:scale-100  duration-300 rounded-xl hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium tracking-wide text-gray-900 "
               >
                 {item.name}
               </a>

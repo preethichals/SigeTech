@@ -39,7 +39,7 @@ function OurStory() {
           <div class="flex ">
             <div class="flex-initial w-72 mx-2 hidden lg:block md:block xl:block">
               <img
-                src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+                src="startup.jpg"
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 className="rounded-lg bg-gray-200"
               />
@@ -61,7 +61,7 @@ function OurStory() {
           <div class="flex ">
             <div class="flex-initial w-72 mx-2 hidden lg:block md:block xl:block">
               <img
-                src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+                src="cloud-03.jpg"
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 className="rounded-lg bg-gray-200"
               />

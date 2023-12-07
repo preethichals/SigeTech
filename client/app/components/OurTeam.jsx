@@ -31,7 +31,7 @@ const management = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-  // More management...
+ 
 ]
 
 const advisory = [
@@ -65,7 +65,7 @@ const advisory = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-  // More management...
+
 ]
 
 const technical = [
@@ -99,7 +99,7 @@ const technical = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-  // More management...
+
 ]
 
 function OurTeam() {
@@ -135,8 +135,8 @@ function OurTeam() {
         </ul>
       </div>
     </div>
-    <p className="my-3 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
-            Our Advisory team
+    <p className="my-4 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
+            Our Advisory Team
           </p>
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
@@ -160,8 +160,8 @@ function OurTeam() {
 
     {/* Technical team */}
 
- <p className="my-3 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
-            Our Technical team
+ <p className="my-4 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
+            Our Technical Team
           </p>
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
