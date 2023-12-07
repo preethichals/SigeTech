@@ -23,7 +23,7 @@ function Header() {
           {/* For Advertisement */}
           <div className="sm:flex sm:justify-between text-sm flex font-light">
             <Link
-              href="mailto:peterindia@gmail.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@ function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:bg-gray-900 hover:text-gray-50 transition ease-in-out delay-150  hover:translate-y-1 hover:scale-100  duration-300 rounded-xl hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium tracking-wide text-gray-900 "
+                className="hover:bg-gray-900 scale-100 hover:scale-105 transition scroll-smooth hover:text-gray-50 ease-in-out delay-150  duration-300 rounded-md hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium tracking-wide text-gray-900 "
               >
                 {item.name}
               </a>

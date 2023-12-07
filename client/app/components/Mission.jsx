@@ -14,7 +14,7 @@ function Mission() {
         <div className='container mx-auto my-auto bg-gray-700'>
         <div className="mx-auto max-w-2xl bg-white  rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto container">
-            <h3 className="text-3xl font-semibold tracking-wide text-yellow-500">
+            <h3 className="text-3xl sm:text-2xl font-semibold tracking-wide text-yellow-500">
               Our Mission
             </h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
