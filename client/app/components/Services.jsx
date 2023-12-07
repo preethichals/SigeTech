@@ -31,7 +31,7 @@ const features = [
 function Services() {
   return (
     <>
-      <div className="mx-auto sm:px-6 sm:py-2 lg:px-8 bg-zinc-200 ">
+      <div className="mx-auto sm:px-6 sm:py-2 lg:px-8 bg-gray-700 ">
         <div className="bg-white px-4">
           <div className="mx-auto my-8 grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-6 px-4 py-14 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
@@ -49,8 +49,8 @@ function Services() {
               <dl className="mt-12 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 sm:gap-y-8 lg:gap-x-8">
                 {features &&
                   features.map((feature) => (
-                    <div key={feature.name} className=" my-auto block">
-                      <dt className="font-medium mb-3 pb-1 text-md sm:lg tracking-wide text-gray-900 border-b-2 border-emerald-700">
+                    <div key={feature.name} className="my-auto block">
+                      <dt className="font-medium mb-3 pb-1 text-lg sm:lg tracking-wide text-yellow-500 border-b-2 border-emerald-700">
                         {feature.name}
                       </dt>
                       <dd className="mt-2 text-sm text-gray-700 line-clamp-4 leading-relaxed">
@@ -60,9 +60,9 @@ function Services() {
                         <span>
                           <Link
                             href={feature.ulr}
-                            className="rounded-md px-4 py-2 text-black  tracking-wide bg-yellow-500 text-sm font-medium uppercase  hover:text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                            className=" hover:text-yellow-400 px-3 py-2 bg-neutral-600 rounded-md tracking-wide text-sm font-semibold uppercase text-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                           >
-                            Read More
+                            Read More...
                           </Link>
                         </span>
                       </dd>

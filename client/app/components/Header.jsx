@@ -7,10 +7,10 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Services +", href: "/ourservice" },
-  { name: "Products", href: "/books" },
-  { name: "About Us", href: "/about" },
-  { name: "Contact Us", href: "/about" },
+   { name: "About Us", href: "/about" },
+  { name: "Services", href: "/ourservice" },
+  { name: "Products", href: "/ourservice" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 function Header() {
@@ -35,7 +35,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <header className="inset-x-0 top-0 z-50 sticky opacity-90 bg-white">
+      <header className="inset-x-0 top-0 z-50 sticky opacity-90 bg-white border-b-4 border-gray-500">
         <nav
           className="flex items-center justify-between px-8 py-2 lg:px-4"
           aria-label="Global"
@@ -61,12 +61,12 @@ function Header() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-4 ms-auto bg-white">
+          <div className="hidden lg:flex lg:gap-x-4 ms-auto bg-white ">
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:bg-slate-200 hover:font-medium bg-white px-4 py-3 inline-block text-lg font-medium tracking-wide text-gray-900 "
+                className="hover:bg-gray-900 hover:text-gray-50 rounded-xl hover:font-medium bg-white px-4 py-2 inline-block text-lg font-medium tracking-wide text-gray-900 "
               >
                 {item.name}
               </a>
@@ -148,9 +148,7 @@ function Header() {
           </Dialog.Panel>
         </Dialog>
       </header>
-       <div className=" bg-neutral-300 container mx-auto max-w-full shadow dark:bg-gray-400">
-        <div className="w-full max-w-screen-xl mx-4 py-1 text-slate-50"></div>
-       </div>
+       
     </>
   );
 }

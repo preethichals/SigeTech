@@ -9,9 +9,10 @@ const includedFeatures = [
 function Mission() {
   return (
     <>
+    <div className='bg-gray-700 pt-20'>
         {/* Mission */}
-        <div className='container mx-auto'>
-        <div className="mx-auto mt-16 max-w-2xl bg-white  rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+        <div className='container mx-auto my-auto bg-gray-700'>
+        <div className="mx-auto max-w-2xl bg-white  rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto container">
             <h3 className="text-3xl font-semibold tracking-wide text-yellow-500">
               Our Mission
@@ -20,7 +21,7 @@ function Mission() {
               We establish robotics as a tool to enable multidisciplinary culture among the students at all levels leads to generate not just engineers but the innovators
             </p>
             <div className="mt-10 flex items-center gap-x-4">
-              <h4 className="flex-none font-semibold text-3xl tracking-wide leading-6 text-teal-700">
+              <h4 className="flex-none font-semibold text-3xl tracking-wide leading-6 text-teal-600">
                Our Vision
               </h4>
               <div className="h-px flex-auto bg-gray-500" />
@@ -32,7 +33,7 @@ function Mission() {
               {includedFeatures.map((feature) => (
                 <li key={feature} className="flex gap-x-3">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-yellow-600"
+                    className="h-6 w-5 flex-none text-yellow-500"
                     aria-hidden="true"
                   />
                   {feature}
@@ -66,6 +67,7 @@ function Mission() {
             
           </div>
           
+        </div>
         </div>
     </>
   )

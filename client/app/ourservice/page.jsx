@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import Service from "../components/Service";
 
 
 function page() {
   return (
+    <>
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
@@ -18,6 +20,8 @@ function page() {
     <Link href='/ourservice/course'>Courses</Link>
       </div>
     </div>
+    <Service/>
+    </>
   );
 }
 

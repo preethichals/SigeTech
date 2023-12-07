@@ -109,12 +109,35 @@ function OurTeam() {
     
 {/* Management Team */}
 <div>
-  <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+  <h4 className="text-4xl border-t-2 text-center font-medium tracking-widest bg-neutral-700  text-white sm:text-4xl py-3">
+        Meet Our Team Members
+      </h4>
+
+          <p className="my-3 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
             Our Management Team
           </p>
-        </div>
+
+    <div className="bg-white py-8 sm:py-12">
+      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
+      
+        <ul role="list" className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
+          {management.map((person) => (
+            <li key={person.name}>
+              <div className="flex items-center gap-x-6">
+                <img className="h-40 w-40 rounded-lg" src={person.imageUrl} alt="" />
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
+                  <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+    <p className="my-3 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
+            Our Advisory team
+          </p>
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
       
@@ -134,47 +157,17 @@ function OurTeam() {
       </div>
     </div>
     </div>
-{/* Advisory team */}
-    <div>
-  <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Our Management Team
-          </p>
-        </div>
-    <div className="bg-white py-8 sm:py-12">
-      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
-      
-        <ul role="list" className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
-          {advisory.map((person) => (
-            <li key={person.name}>
-              <div className="flex items-center gap-x-6">
-                <img className="h-40 w-40 rounded-lg" src={person.imageUrl} alt="" />
-                <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-    </div>
 
     {/* Technical team */}
-    <div>
-  <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our leadership</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Our Management Team
+
+ <p className="my-3 text-2xl sm:text-2xl font-light tracking-widest text-center leading-8 text-gray-600">
+            Our Technical team
           </p>
-        </div>
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
       
         <ul role="list" className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
-          {technical.map((person) => (
+          {management.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img className="h-40 w-40 rounded-lg" src={person.imageUrl} alt="" />
@@ -187,7 +180,6 @@ function OurTeam() {
           ))}
         </ul>
       </div>
-    </div>
     </div>
      </>
   )

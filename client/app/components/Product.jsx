@@ -7,33 +7,29 @@ function Product() {
   return (
     <>
       <div className="mx-auto sm:px-6 sm:py-6 lg:px-8 bg-gray-700 py-4 ">
-        <h4 className="text-6xl text-center font-medium tracking-widest uppercase bg-gray-700  text-white sm:text-4xl pt-3">
+        
+
+        <div className=" mt-2 ">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-6 px-4 py-2 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+            <div>
+              <h4 className="text-4xl border-b pb-4 border-gray-200 text-center font-medium tracking-widest uppercase bg-gray-700  text-white sm:text-2xl pt-3">
           Our Products
         </h4>
-
-        <div className="border-t border-gray-200 mt-4 ">
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-6 px-4 py-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-            <div>
-              <h2 className="text-xl font-medium tracking-wide text-white sm:text-xl">
-                <span>We develop products for </span>
+              <h2 className="text-xl mt-8 mb-8 font-medium text-white sm:text-xl">
+                <span className=" tracking-wider">We develop products for </span>
                 <span className="tracking-wider text-yellow-500">
                   Educationists, Hobbyists, Researchers, and Students
                 </span>{" "}
-                who want to teach, learn and do research with robots{" "}
-              </h2>
-              <p className="mt-6 mb-10 text-gray-500 leading-loose ">
-                We develop products for educationists, hobbyists, Researchers,
-                and Students who want to teach, learn and do research with
-                robots
-                <span>
+                <span className="tracking-wider">who want to teach, learn and do research with robots</span>  <span>
                   <Link
                     href="#"
-                    className="rounded-md ms-3 px-3 py-1 text-black  tracking-widest bg-yellow-500 text-sm font-medium uppercase  hover:text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    className="rounded-md ms-3 px-3 py-1 text-black  tracking-wide bg-yellow-500 text-sm font-medium uppercase  hover:text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   >
-                    Learn More
+                    View Products
                   </Link>
                 </span>
-              </p>
+              </h2>
+            
 
               {/* products-01 */}
               <div className="max-w-md mx-auto mt-6  bg-neutral-100 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
