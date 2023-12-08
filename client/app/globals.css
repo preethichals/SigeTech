@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +14,7 @@
 
 html,
 body {
-  background-color: #dee7ef;
+  background-color: #FFFFFF;
 }
 
 .bg-image1 {
@@ -41,4 +41,7 @@ body {
   background-image: url("../public/about-bg.jpg");
   background-attachment: fixed;
   background-position: center;
+}
+.rounded-image{
+ border-radius: 80px 0px 80px 0px;
 }
