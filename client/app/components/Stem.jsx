@@ -25,9 +25,9 @@ fostering exploration, and enabling hands-on application across various scientif
             <h2 className=" text-center leading-loose font-bold border-b-2 border-neutral-300 pb-1  mt-3 tracking-widest text-gray-800 ">
               LAB Setup with Intricately Design
             </h2>
-            <h2 className="text-center lg:px-6 font-medium mt-2 mb-4  text-gray-500 leading-loose sm:px-12">
+            <h2 className="text-center lg:px-12 font-medium mt-2 mb-4  text-gray-500 leading-loose sm:px-12">
               STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
-              engaging and interactive learning environment
+              engaging and interactive learning environment <span className="font-semibold text-emerald-700">' Specifically for School Students '</span>
             </h2>
 
             <button className="hover:bg-yellow-500  hover:border-gray-400  border-2 tracking-widest text-base  transition scroll-smooth hover:text-gray-50 shadow-xl rounded-lg bg-yellow-400 px-4 py-2 inline-block font-semibold uppercase text-gray-900 ">
@@ -53,15 +53,15 @@ fostering exploration, and enabling hands-on application across various scientif
             />
           </div>
           <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
-            <h2 className="text-2xl text-center sm:text-2xl pt-4 text-emerald-300 tracking-widest uppercase font-semibold">
+            <h2 className="text-2xl text-center sm:text-2xl pt-4 text-emerald-300 tracking-wide uppercase font-semibold">
              AI Lab Setup
             </h2>
             <h2 className=" text-center leading-loose font-bold border-b-2 border-neutral-300 pb-1  mt-3 tracking-widest text-gray-100 ">
-              LAB Setup with Intricately Design
+              AI LAB Setup an Innovation Hub
             </h2>
-            <h2 className="text-center lg:px-6 font-medium mt-2 mb-4  text-white leading-loose sm:px-12">
-              STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
-              engaging and interactive learning environment
+            <h2 className="text-center lg:px-12 font-medium mt-2 mb-4  text-white leading-loose sm:px-12">
+              An immersive platform for
+students to explore the diverse facets of <span className="font-semibold text-yellow-500">' Artificial Intelligence (AI) and Machine Learning '</span>
             </h2>
 
             <button className="hover:bg-yellow-500  border-gray-400 hover:border-gray-200  border-2 tracking-widest text-base  transition scroll-smooth hover:text-gray-50 rounded-lg bg-yellow-400 px-4 py-2 inline-block font-semibold uppercase text-gray-900 ">
@@ -75,18 +75,18 @@ fostering exploration, and enabling hands-on application across various scientif
          <div className="grid  w-full grid-cols-1 bg-white p-8 rounded-3xl  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
           <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-yellow-500 tracking-wide uppercase font-semibold">
-              Stem Lab Setup
+              Robotics Lab Setup
             </h2>
             <h2 className=" text-center leading-loose font-bold border-b-2 border-neutral-300 pb-1  mt-3 tracking-widest text-gray-800 ">
-              LAB Setup with Intricately Design
+             innovation-driven space designed 
             </h2>
             <h2 className="text-center lg:px-6 font-medium mt-2 mb-4  text-gray-500 leading-loose sm:px-12">
-              STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
-              engaging and interactive learning environment
+             Ignite curiosity
+and Practical exploration in the realm of Robotics and Automation.
             </h2>
 
             <button className="hover:bg-yellow-500  hover:border-gray-400  border-2 tracking-widest text-base  transition scroll-smooth hover:text-gray-50 shadow-xl rounded-lg bg-yellow-400 px-4 py-2 inline-block font-semibold uppercase text-gray-900 ">
-              <Link href="/ourservice/course"> More Details </Link>
+              <Link href="/ourservice/robotics"> More Details </Link>
             </button>
           </div>
           <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">

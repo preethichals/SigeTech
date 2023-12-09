@@ -33,7 +33,7 @@ function page() {
   return (
     <>
       <div classname=" bg-gray-100">
-        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
+        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
           Stem Lab Setup
         </h4>
         <p className="ps-6 py-4 mt-5  container mx-auto text-lg sm:text-base leading-loose text-neutral-800 font-medium tracking-wide">
@@ -69,7 +69,7 @@ function page() {
             accessible manner.
           </li>
           {/* banner */}
-          <div className=" bg-technology">
+          <div className="bg-service1">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
                 <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ">
@@ -82,11 +82,11 @@ function page() {
                 </div>
                 <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
-                    <span className=" text-teal-800 font-medium uppercase tracking-wide ">
+                    <span className=" text-red-600 font-medium uppercase tracking-wide ">
                       STEM Lab Setup
                     </span>
                   </h1>
-                  <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-neutral-700 text-center leading-loose border-white">
+                  <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-yellow-800 text-center leading-loose border-gray-500">
                     Intricately design to provide an engaging and interactive
                     learning environment
                   </p>

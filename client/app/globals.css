@@ -45,3 +45,9 @@ body {
 .rounded-image{
  border-radius: 80px 0px 80px 0px;
 }
+
+.bg-service1 {
+  background-image: url("../public/header-bg\ copy.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
