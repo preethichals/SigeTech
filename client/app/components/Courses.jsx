@@ -8,7 +8,7 @@ function Courses() {
       <h4 className="text-4xl block  py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
          Robotic Course We Offer 
       </h4>
-        <p className=" uppercase mt-2 container mx-auto  sm:text-2xl text-xl tracking-widest font-semibold py-4 text-neutral-100 text-center leading-loose ">
+        <p className=" uppercase mt-2 container mx-auto p-4  sm:text-2xl text-xl tracking-widest font-semibold py-4 text-neutral-100 text-center leading-loose ">
           " Full-Stack Robot Developer "
         </p>
 

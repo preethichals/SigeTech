@@ -28,7 +28,7 @@ body {
   background-position: center;
 }
 .bg-books {
-  background-image: url("../public/banner-books2.jpg");
+  background-image: url("");
   background-attachment: fixed;
   background-position: center;
 }
@@ -51,3 +51,9 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+.bg-service {
+  background-image: url("../public/bg-service.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
