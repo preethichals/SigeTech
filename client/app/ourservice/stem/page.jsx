@@ -198,7 +198,7 @@ function page() {
           <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:py-4 lg:text-center">
             {/* Image */}
 
-            <div className="bg-white py-3 sm:py-3 ">
+            <div className="bg-white py-3 sm:py-3 container mx-auto ">
               <div className="mx-auto grid  px-6 lg:px-4">
                 <ul
                   role="list"

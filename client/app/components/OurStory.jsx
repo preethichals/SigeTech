@@ -20,13 +20,13 @@ export default function page() {
     <div className="bg-white pt-14 sm:pt-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="p-8 sm:p-10 lg:flex-auto bg-gray-700">
-            <h3 className="text-3xl font-semibold  text-center tracking-wide text-white">
+            <h3 className="text-3xl font-semibold  text-center text-emerald-500 uppercase tracking-widest">
 Who We Are            </h3>
-            <p className="mt-6 text-base leading-7 text-gray-100 text-center">
-STEMTEC is more than an educational solutions provider, we&#39;re also a pioneering force in STEM product
-development. Our team of dedicated professionals and experts collaborates tirelessly to design and
-manufacture innovative products that enhance the learning journey and laboratory experiences.       </p>
-            
+<p className="p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
+         STEMTEC is more than an educational solutions provider,<span className="font-semibold"> We&#39;re also a pioneering force in STEM product
+development.</span> Our team of dedicated professionals and experts collaborates tirelessly to design and
+manufacture innovative products that enhance the learning journey and laboratory experiences.
+          </p>
             
           </div>
         <div className="mx-auto mt-6 max-w-2xl sm:mt-8 lg:mt-8 lg:max-w-none container">
@@ -43,16 +43,19 @@ manufacture innovative products that enhance the learning journey and laboratory
           </dl>
         </div>
       </div>
+      
        
-          <div className="lg:p-12 sm:p-10 lg:flex-auto bg-gray-700">
-            <h3 className="text-3xl mx-4 pt-4 font-semibold  text-center tracking-wide text-white">
-Join Us on Our Journey          </h3>
-            <p className="mt-4 text-base px-6 pb-4 leading-7 text-gray-100 text-center">
-Join us in our mission to transform education and product development in the STEM landscape.
+    
+          <div className="bg-gray-700 mx-auto">
+      <h4 className="text-4xl block  py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
+    Join Us on Our Journey 
+      </h4>
+       
+<p className="py-6 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
+           Join us in our mission to transform education and product development in the STEM landscape.<br/>
 Together, let&#39;s shape the future of learning and innovation, inspiring a generation of learners and
-innovators who will propel the world forward with their knowledge and discoveries.   </p>
-            
-            
+innovators who will propel the world forward with their knowledge and discoveries.
+          </p>
           </div>
     </div>
     <OurTeam/>

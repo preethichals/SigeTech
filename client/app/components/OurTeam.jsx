@@ -87,18 +87,18 @@ function OurTeam() {
     
 {/* Management Team */}
 <div>
-  <h4 className=" text-4xl border-t-2 text-center font-medium tracking-wide bg-neutral-700  text-white sm:text-4xl py-4">
+  <h4 className="mt-4 text-4xl border-t-2 text-center font-medium tracking-wide bg-gray-800  text-white sm:text-4xl py-4">
         Meet Our Team Members
       </h4>
 
-    <p className=" text-4xl bg-gray-800 p-4 sm:text-4xl font-light tracking-wide text-center leading-8 text-yellow-500">
+    <p className=" text-4xl bg-gray-700 p-4 sm:text-4xl font-light tracking-wide text-center leading-8 text-yellow-500">
             Our Management Team
           </p>
 
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
       
-        <ul role="list" className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
+        <ul role="list" className="grid  justify-items-center gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
           {management.map((person) => (
             <li key={person.id}>
               <div className="flex items-center gap-x-6">
@@ -119,7 +119,7 @@ function OurTeam() {
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8">
       
-        <ul role="list" className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
+        <ul role="list" className="grid justify-items-center  gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 sm:gap-y-16 xl:col-span-2">
           {management.map((person) => (
             <li key={person.id}>
               <div className="flex items-center gap-x-6">

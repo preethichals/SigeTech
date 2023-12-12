@@ -12,7 +12,7 @@ function page() {
         <div className="mx-auto max-w-2xl sm:text-center">
          
           <h2 className="text-4xl font-bold text-center tracking-wide text-gray-900  flex-wrap">
-           Welcome to STEMTEC
+           Welcome to <span className="text-yellow-500">STEMTEC</span>
             <span className="mt-6 ms-3 text-3xl leading-8 text-gray-600  font-bold tracking-wide sm:text-3xl">
              <br/> Where Innovation in Education and Product Development Thrives!
             </span>

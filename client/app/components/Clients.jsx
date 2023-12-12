@@ -8,22 +8,8 @@ function Clients() {
         <h2 className="text-center mb-8 text-4xl sm:4xl font-semibold leading-loose tracking-widest text-white border-b-2 border-neutral-400">
           Our Happy Clients
         </h2>
-        <div className="grid lg:grid-cols-3 gap-10 grid-rows-3 items-center sm:grid-cols-2 md:grid-cols-3 md:gap-12 sm:gap-10 lg:gap-6">
-              <img
-                src="client-010.png"
-                alt="happy client"
-                className="rounded-lg bg-gray-100"
-              />
-              <img
-                src="client-012.png"
-                alt="happy client"
-                className="rounded-lg bg-gray-100"
-              />
-              <img
-                src="client-013.png"
-                alt="happy client"
-                className="rounded-lg bg-gray-100"
-              />
+        <div className="grid lg:grid-cols-3 gap-10 grid-rows-2 items-center sm:grid-cols-2 md:grid-cols-3 md:gap-12 sm:gap-10 lg:gap-6">
+              
               <img
                 src="client-014.png"
                 alt="happy client"
