@@ -19,7 +19,7 @@ function Header() {
   return (
     <>
       <div className=" bg-neutral-900 container mx-auto max-w-full shadow dark:bg-gray-900">
-        <div className="w-full max-w-screen-xl mx-8 py-1 text-slate-50">
+        <div className="w-full max-w-screen-xl py-1 text-slate-50">
           {/* For Advertisement */}
           <div className="sm:flex sm:justify-between text-sm flex font-light">
             <Link
@@ -66,7 +66,7 @@ function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:bg-gray-900 underline hover:no-underline tracking-widest scale-100 hover:scale-105 transition scroll-smooth hover:text-gray-50 ease-in-out delay-150  duration-500 rounded-lg hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium text-gray-900 "
+                className="hover:bg-gray-900  hover:underline tracking-widest scale-100 hover:scale-105 transition scroll-smooth hover:text-gray-50 ease-in-out delay-150  duration-500 rounded-lg hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium text-gray-900 "
               >
                 {item.name}
               </a>

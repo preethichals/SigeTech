@@ -8,11 +8,11 @@ function Courses() {
       <h4 className="text-4xl block  py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
          Robotic Course We Offer 
       </h4>
-        <p className=" uppercase mt-2 container mx-auto p-4  sm:text-2xl text-xl tracking-widest font-semibold py-4 text-neutral-100 text-center leading-loose ">
+        <p className=" uppercase mt-2 container mx-auto px-2  sm:text-2xl text-xl tracking-widest font-semibold py-4 text-neutral-100 text-center leading-loose ">
           " Full-Stack Robot Developer "
         </p>
 
-<p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
+<p className="p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-100 font-normal text-center tracking-widest">
             This program equips the participants to think and innovate new
             robotic products that can be deployed to solve or automate a
             real-world problem.<span className="font-semibold"> This program focuses mainly on</span>  <span className="text-yellow-500 font-semibold "> 'The process of
@@ -27,14 +27,14 @@ function Courses() {
         
         <div className="mx-auto text-center container bg-neutral-200 pb-1">
           
-          <p className="pt-4  font-medium text-gray-700 ">
+          <p className="pt-4 mt-2 font-medium text-gray-700 ">
             <span className="  text-xl sm:text-xl tracking-widest uppercase font-semibold">
               During this program, </span>{" "} 
           
    
             
           </p>
-          <p className="p-4 font-medium text-gray-800 mt-2 mb-4">
+          <p className="p-4 font-medium text-gray-800 mb-4">
             
             
             <span className="tracking-wide">
@@ -62,7 +62,7 @@ function Courses() {
                   <Link href="/ourservice/course"><img
                     src="course-img.png"
                     alt="course-imgae"
-                    className="h-full w-auto object-cover object-center"
+                    className="h-auto w-auto object-cover object-center"
                   /></Link>
                 </div>
               </div>

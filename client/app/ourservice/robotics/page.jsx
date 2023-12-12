@@ -32,16 +32,51 @@ const management = [
 function page() {
   return (
     <>
-      <div classname=" bg-gray-100">
-        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
-          Robotics Lab Setup
-        </h4>
-        <p className="ps-6 py-4 mt-5  container mx-auto text-lg sm:text-base leading-loose text-neutral-800 font-medium tracking-wide">
-          STEMTEC&#39;s Robotics Lab Setup serves as an innovation-driven space designed to ignite curiosity
-and practical exploration in the realm of robotics and automation.
-          <br /> <br />  This dynamic learning
-environment encompasses:
-        </p>
+     {/* breadcrumb */}
+     <div className='py-4 ps-4'>
+<nav className="flex" aria-label="Breadcrumb">
+  <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+    <li className="inline-flex items-center">
+      <Link href="/" className="inline-flex items-center text-sm font-medium text-emerald-700 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-white">
+        <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+          <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
+        </svg>
+        Home
+      </Link>
+    </li>
+    <li>
+      <div className="flex items-center">
+        <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
+        </svg>
+        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
+      </div>
+    </li>
+    <li aria-current="page">
+      <div className="flex items-center">
+        <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
+        </svg>
+        <span className="ms-1 text-sm underline font-medium text-gray-700 md:ms-2 dark:text-gray-400">Robotics</span>
+      </div>
+    </li>
+  </ol>
+</nav>
+</div>   
+{/* Robotics Lab Setup */}
+      <div className=" bg-gray-100">
+         <div className="mx-auto max-w-5xl sm:text-center text-center p-4">
+          <h2 className="lg:text-5xl font-bold tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
+           <span className=" ms-3 text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
+             <br/> STEMTEC&#39;s<span className="text-yellow-500 font-bold"> Robotics Lab Setup</span><br/> serves as an innovation-driven space
+            </span> 
+            <span className="mt-6 ms-3 text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
+designed to ignite curiosity
+and practical exploration in the realm of<br/><span className=" text-emerald-800">robotics and automation.</span> 
+            </span>
+          </h2>
+        </div>
+   
 
         <ul>
           <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
@@ -100,7 +135,7 @@ enhancing students&#39; readiness for future endeavors in the field of robotics.
         </ul>
       </div>
 
-      <div classname="pt-4 pb-3 text-wrap container">
+      <div className="pt-4 pb-3 text-wrap container mx-auto">
         <p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-800 font-normal text-center tracking-widest">
           STEMTEC&#39;s Robotics Lab Setup aims to inspire and empower students to explore the realms of robotics.
 

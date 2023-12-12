@@ -7,7 +7,8 @@ import Stem from "../components/Stem";
 function page() {
   return (
     <>
-    <div className="bg-white lg:py-6 sm:py-6">
+
+    <div className="bg-gray-200 lg:py-6 sm:py-6">
        {/* banner */}
           <div className="bg-service">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">

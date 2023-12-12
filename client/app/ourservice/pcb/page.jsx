@@ -32,12 +32,12 @@ const management = [
 function page() {
   return (
     <>
-   {/* breadcrumb */}
+    {/* breadcrumb */}
      <div className='py-4 ps-4'>
 <nav className="flex" aria-label="Breadcrumb">
   <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     <li className="inline-flex items-center">
-      <Link href="/" className="inline-flex items-center text-sm font-medium text-emerald-700 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-white">
+      <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
         <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
           <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
         </svg>
@@ -49,7 +49,7 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
+        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
       </div>
     </li>
     <li aria-current="page">
@@ -57,45 +57,37 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <span className="ms-1 text-sm underline font-medium text-gray-700 md:ms-2 dark:text-gray-400">AI-Lab-Setup</span>
+        <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">3D-Printing</span>
       </div>
     </li>
   </ol>
 </nav>
-</div>  
-{/* AI Lab Setup */}
+</div>
+{/* PCB Design Services */}
       <div className=" bg-gray-100">
         <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
-          AI Lab Setup
+          PCB Design Services
         </h4>
         <p className="ps-6 py-4 mt-5  container mx-auto text-lg sm:text-base leading-loose text-neutral-800 font-medium tracking-wide">
-          STEMTEC&#39;s AI Lab Setup serves as an innovation hub, providing an immersive platform for
-students to explore the diverse facets of artificial intelligence (AI) and machine learning.
-          <br /> <br /> This
-multifaceted learning space encompasses:
+          STEMTEC offers tailored PCB (Printed Circuit Board) design solutions meticulously crafted to meet
+diverse industry needs. Our expert team utilizes cutting-edge software and industry expertise to
+engineer customized PCB designs, ensuring precision, reliability, and compliance with industry
+standards.
+          
         </p>
 
         <ul>
           <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Interactive Learning Modules:
+          
             </span>{" "}
-            Tailored to cater to varying levels of understanding, the
-AI Lab offers comprehensive learning modules. These modules cover a wide spectrum,
-introducing students to basic AI concepts while progressively delving into more
-advanced topics like machine learning algorithms, neural networks, and their
-applications in everyday scenarios.
+           With a focus on precision engineering, our comprehensive design process guarantees functionality,
+manufacturability, and adherence to stringent quality control measures across single-layer, double-
+layer, and multilayer PCBs. We collaborate closely with clients, understanding their unique requirements
+to deliver customized solutions that align perfectly with specific project demands and industry
+specifications.
           </li>
-          <li className="ps-6 pb-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Hands-On Experimentation Areas:
-            </span>{" "}
-            Equipped with dedicated experimentation areas,
-students engage in practical exercises using specialized software tools and resources.
-This hands-on approach allows them to develop, train, and fine-tune AI models, gaining
-proficiency in implementing AI algorithms and understanding their real-world
-implications.
-          </li>
+          
           {/* banner */}
           <div className=" bg-technology">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
@@ -111,55 +103,43 @@ implications.
                 <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-teal-800 font-medium uppercase tracking-wide ">
-                      AI Lab Setup
+                       PCB Design Services
                     </span>
                   </h1>
                   <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-neutral-700 text-center leading-loose border-white">
-                    An innovation hub, providing an immersive platform for
-students
+                    Cutting-edge software and industry expertise to
+engineer customized PCB designs
                   </p>
                 </div>
               </div>
             </div>
           </div>
-         {/* Collaborative Research Spaces */}
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-        Collaborative Research Spaces:
-            </span>{" "}
-            The AI Lab encourages collaborative research projects,
-fostering teamwork and knowledge sharing among students. These spaces provide a
-conducive environment for exploring innovative AI solutions, leading to the generation
-of new ideas and problem-solving approaches.
+          <li className="ps-6 py-4 mt-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+           
+            Our adaptable expertise caters to various sectors, including electronics, telecommunications, medical
+devices, automotive, aerospace, and more. STEMTEC&#39;s PCB design services are geared toward driving
+innovation and operational efficiency, ensuring reliable and professional designs that propel
+technological advancements.
           </li>
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Ethical AI Discussions:
-            </span>{" "}
-           Emphasizing the ethical considerations of AI, the lab conducts
-discussions and workshops focused on the societal impact of AI technologies. Students
-explore topics such as AI ethics, bias in algorithms, data privacy, and the responsible
-deployment of AI in various domains.
-          </li>
+         
         </ul>
       </div>
 
       <div className="pt-4 pb-3 text-wrap container mx-auto">
         <p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-800 font-normal text-center tracking-widest">
-          STEMTEC&#39;s AI Lab Setup aims to equip students with a solid foundation in AI, 
+          STEMTEC&#39;s Robotics Lab Setup aims to inspire and empower students to explore the realms of robotics.
+
           <span className="font-semibold">
             {" "}
-           nurturing their
-interest and proficiency in this rapidly evolving field. By providing a 
+            By offering diverse robotics platforms, 
           </span>{" "}
           <span className="text-yellow-500 font-semibold ">
             {" "}
-         blend of theoretical
-knowledge, practical experimentation, collaborative research opportunities, and ethical
-discussions, 
+           practical experimentation zones, industry collaborations, and
+innovation spaces, 
           </span>{" "}
-         the lab prepares students to responsibly navigate the complexities of AI in their
-academic and professional pursuits.
+          <span className="font-semibold">the lab cultivates students&#39; curiosity and proficiency in robotics, preparing them for
+the challenges and innovations shaping the future of automation.</span>
         </p>
       </div>
       <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">

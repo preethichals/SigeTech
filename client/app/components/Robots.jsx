@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -46,19 +47,19 @@ function Robots() {
         <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
            
           <div className="text-center mt-10 mb-12 p-5">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 bg-white text-gray-600 ">
            Courses We Offer, Project Consultation and Development, 
-              <a href="#" className="font-semibold text-yellow-600">
+              <Link href="/ourservice" className="font-semibold text-yellow-600">
                 <span className="absolute inset-0 ps-2" aria-hidden="true" /> View Our Services <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
             <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
            
               <h1 className="mb-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
-                <span className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-l to-yellow-500 from-teal-800">
+                <span className=" leading-relaxed text-gray-700 ">
                   Learn, Build and Deploy <br />
                 </span>{" "}
-                <span className=" text-teal-800 font-medium tracking-tight">
+                <span className=" text-emerald-800 font-medium tracking-tight">
                   Robotic Technology
                 </span>
               </h1>
@@ -76,7 +77,7 @@ function Robots() {
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl py-2 sm:py-4 lg:max-w-none lg:py-2">
               <div className="mx-auto my-1 p-6  rounded-lg">
-                <h4 className="text-3xl text-center font-light tracking-widest uppercase bg-emerald-600 text-gray-100 sm:text-2xl py-3">
+                <h4 className="text-3xl text-center font-light tracking-widest capitalize bg-emerald-600 text-gray-100 sm:text-2xl py-3">
                   Is your robotic thirst ever been served properly?
                 </h4>
                 <p className="mt-6 uppercase sm:text-xl text-xl tracking-widest font-semibold pt-4 text-neutral-800 text-center leading-loose border-t border-gray-400">

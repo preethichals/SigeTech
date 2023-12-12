@@ -14,22 +14,23 @@ function Footer() {
          <li>
           <a href="/" className="mr-4 hover:underline md:mr-6 ">Home</a>
         </li>
-        <li>
-          <a href="/books" className="mr-4 hover:underline md:mr-6">Books</a>
-        </li>
-        <li>
+         <li>
           <a href="/about" className="mr-4 hover:underline md:mr-6 ">About</a>
         </li> 
+        <li>
+          <a href="/ourservice" className="mr-4 hover:underline md:mr-6">services</a>
+        </li>
+       
         <li>
           <a href="mailto:peterindia@gmail.com" className="hover:underline">Contact</a>
         </li>
         <li className='mx-4'>
        <div className="text-sm font-semibold leading-6 text-gray-900">
               <span className='flex flex-row justify-around'>
-            <Link href='https://www.linkedin.com/in/sweetypeter' target="_blank" rel="noopener noreferrer"><img src='/LinkedIn.png' width={30} height={30} className="me-2" /> </Link>
-            <Link href='https://www.facebook.com/sweetypeter' target="_blank" rel="noopener noreferrer"><img src='/Facebook.png' width={30} height={30} className="me-2" /></Link>
-            <Link href='https://scholar.google.co.in/citations?user=MgMlqAwAAAAJ&hl=en&authuser=1' target="_blank" rel="noopener noreferrer"><img src='/google-scolar.png' width={30} height={30}  className="me-2" /></Link>
-            <Link href='https://twitter.com/peterindia' target="_blank" rel="noopener noreferrer"><img src='/x-social-icon.png' width={30} height={30}  className="me-2" /></Link></span><span aria-hidden="true"></span>
+            <Link href='' target="_blank" rel="noopener noreferrer"><img src='/LinkedIn.png' width={30} height={30} className="me-2" /> </Link>
+            <Link href='' target="_blank" rel="noopener noreferrer"><img src='/Facebook.png' width={30} height={30} className="me-2" /></Link>
+            <Link href='' target="_blank" rel="noopener noreferrer"><img src='/google-scolar.png' width={30} height={30}  className="me-2" /></Link>
+            <Link href='' target="_blank" rel="noopener noreferrer"><img src='/x-social-icon.png' width={30} height={30}  className="me-2" /></Link></span><span aria-hidden="true"></span>
             </div> 
         </li>
       </ul>

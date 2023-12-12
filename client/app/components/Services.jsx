@@ -35,7 +35,7 @@ function Services() {
         <div className="bg-white px-4">
           <div className="mx-auto my-8 grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-6 px-4 py-14 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
-              <h4 className="text-6xl font-semibold tracking-widest text-emerald-800 sm:text-4xl uppercase  pt-3">
+              <h4 className="text-3xl font-semibold tracking-widest text-emerald-800 sm:text-3xl uppercase  pt-3">
                 Our Services
               </h4>
               {/* <h2 className="text-xl mt-5 font-medium tracking-wide leading-loose text-neutral-800 sm:text-xl">

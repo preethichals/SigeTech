@@ -33,7 +33,7 @@ const management = [
 function page() {
   return (
    <div>
-  <div classname="bg-white py-24 sm:py-32">
+  <div className="bg-white py-24 sm:py-32">
     <h4 className="text-4xl block  ps-8 py-4 bg-slate-100 font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
          Stem Lab Setup
       </h4>
@@ -83,7 +83,7 @@ function page() {
 
       </div>
 
-       <div classname="pt-4 pb-3 text-wrap container">
+       <div className="pt-4 pb-3 text-wrap container">
    
 <p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-800 font-normal text-center tracking-widest">
             This program equips the participants to think and innovate new

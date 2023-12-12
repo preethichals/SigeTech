@@ -4,21 +4,14 @@ import React from "react";
 function Stem() {
   return (
     <>
+    <div className="container mx-auto">
  
 
-        {/* <p className=" uppercase mt-2 container mx-auto  sm:text-2xl text-xl tracking-widest font-semibold py-4 text-neutral-800 text-center leading-loose ">
-          " Full-Stack Robot Developer "
-        </p>
-
-<p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-800 font-normal text-center tracking-widest">
-            STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an engaging and
-interactive learning environment specifically for school students, aimed at nurturing curiosity,
-fostering exploration, and enabling hands-on application across various scientific disciplines.
-          </p> */}
+ 
 
         {/* Stem Lab Setup */}
-        <div className="grid  w-full grid-cols-1 bg-white p-8 rounded-3xl  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
-          <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
+        <div className="grid mt-6 w-full grid-cols-1 bg-white p-8 rounded-3xl  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
+          <div className=" max-w-xl sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto mx-auto container ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-yellow-500 tracking-wide uppercase font-semibold">
               Stem Lab Setup
             </h2>
@@ -44,7 +37,7 @@ fostering exploration, and enabling hands-on application across various scientif
         </div>
 
         {/* AI Lab Setup */}
-        <div className="grid mb-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
+        <div className="grid my-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
            <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
               src="/cloud-1.jpg"
@@ -52,7 +45,7 @@ fostering exploration, and enabling hands-on application across various scientif
               className="object-cover object-center "
             />
           </div>
-          <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
+          <div className="max-w-xl sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto mx-auto container ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-emerald-300 tracking-wide uppercase font-semibold">
              AI Lab Setup
             </h2>
@@ -73,7 +66,7 @@ students to explore the diverse facets of <span className="font-semibold text-ye
 
         {/* Robotics Lab Setup */}
          <div className="grid  w-full grid-cols-1 bg-white p-8 rounded-3xl  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
-          <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
+          <div className="max-w-xl sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto mx-auto container ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-yellow-500 tracking-wide uppercase font-semibold">
               Robotics Lab Setup
             </h2>
@@ -99,7 +92,7 @@ and Practical exploration in the realm of Robotics and Automation.
         </div>
 
         {/* PCB Design */}
-          <div className="grid mb-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
+          <div className="grid my-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
            <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
               src="/cloud-1.jpg"
@@ -107,41 +100,42 @@ and Practical exploration in the realm of Robotics and Automation.
               className="object-cover object-center "
             />
           </div>
-          <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
+          <div className="max-w-xl sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto mx-auto container ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-emerald-300 tracking-wide uppercase font-semibold">
-              Stem Lab Setup
+              PCB Design Services
             </h2>
             <h2 className=" text-center leading-loose font-bold border-b-2 border-neutral-300 pb-1  mt-3 tracking-widest text-gray-100 ">
-              LAB Setup with Intricately Design
+              Tailored PCB (Printed Circuit Board) Design
             </h2>
             <h2 className="text-center lg:px-6 font-medium mt-2 mb-4  text-white leading-loose sm:px-12">
-              STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
-              engaging and interactive learning environment
+              PCB (Printed Circuit Board) design solutions meticulously crafted to meet
+diverse industry needs
             </h2>
 
             <button className="hover:bg-yellow-500  border-gray-400 hover:border-gray-200  border-2 tracking-widest text-base  transition scroll-smooth hover:text-gray-50 rounded-lg bg-yellow-400 px-4 py-2 inline-block font-semibold uppercase text-gray-900 ">
-              <Link href="/ourservice/course"> More Details </Link>
+              <Link href="/ourservice/pcb"> More Details </Link>
             </button>
           </div>
          
         </div>
+     
 
         {/* 3D Printing Service */}
        <div className="grid  w-full grid-cols-1 bg-white p-8 rounded-3xl  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
-          <div className="sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto ">
+          <div className=" max-w-xl sm:col-span-8 md:col-span-8 text-center lg:col-span-7 my-auto mx-auto container ">
             <h2 className="text-2xl text-center sm:text-2xl pt-4 text-yellow-500 tracking-wide uppercase font-semibold">
-              Stem Lab Setup
+             3D Printing Services
             </h2>
             <h2 className=" text-center leading-loose font-bold border-b-2 border-neutral-300 pb-1  mt-3 tracking-widest text-gray-800 ">
-              LAB Setup with Intricately Design
+                 We offers precise and customized 3D printing solutions tailored to diverse industry needs.
             </h2>
             <h2 className="text-center lg:px-6 font-medium mt-2 mb-4  text-gray-500 leading-loose sm:px-12">
-              STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
-              engaging and interactive learning environment
+ Our
+team employs advanced technology to deliver high-quality 3D prints for various applications.
             </h2>
 
             <button className="hover:bg-yellow-500  hover:border-gray-400  border-2 tracking-widest text-base  transition scroll-smooth hover:text-gray-50 shadow-xl rounded-lg bg-yellow-400 px-4 py-2 inline-block font-semibold uppercase text-gray-900 ">
-              <Link href="/ourservice/course"> More Details </Link>
+              <Link href="/ourservice/3d-printing"> More Details </Link>
             </button>
           </div>
           <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
@@ -153,7 +147,7 @@ and Practical exploration in the realm of Robotics and Automation.
           </div>
         </div>
  
-   
+   </div>
     </>
   );
 }

@@ -2,14 +2,31 @@ import React from 'react'
 import { CheckIcon } from "@heroicons/react/20/solid";
 
 const includedFeatures = [
-  "We envision a student community that can inspire from our practical education through robotics technology to innovate products that can solve real-world problems.",
-  "We want to convert the process of problem-solving into a fun-filled experience. ",
+  "Our vision is to be a catalyst for educational transformation, inspiring learners worldwide to explore, innovate, and excel in STEM disciplines.",
+  "We strive to empower individuals to become future leaders and problem solvers, contributing to technological advancements and societal progress.",
   
 ];
 function Mission() {
   return (
     <>
-    <div className='bg-gray-700 pt-20'>
+      {/* Vision */}
+        <div className="mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200  lg:mx-0 lg:flex lg:max-w-none">
+          <div className="p-8 sm:p-10 lg:flex-auto bg-gray-700">
+            <h3 className="text-3xl font-semibold  text-center tracking-wide text-white">
+             Empowering Innovation in <span> Education </span><span>and</span><span> Product Development</span>
+            </h3>
+            <p className="mt-6 text-base leading-7 text-gray-100 text-center">
+At STEMTEC, we&#39;re passionate about revolutionizing education and creating innovative products that
+inspire curiosity and excellence in the fields of Science, Technology, Engineering, and Mathematics
+(STEM). We&#39;re committed to equipping educators, institutions, and students with cutting-edge tools and
+resources that nurture creativity, critical thinking, and hands-on learning experiences.            </p>
+            
+            
+          </div>
+          
+        </div>
+    <div className='bg-gray-700 py-10'>
+      
         {/* Mission */}
         <div className='container mx-auto my-auto bg-gray-700'>
         <div className="mx-auto max-w-2xl bg-white  rounded-3xl ring-1 ring-gray-200 lg:mx-0 lg:flex lg:max-w-none">
@@ -18,11 +35,13 @@ function Mission() {
               Our Mission
             </h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              We establish robotics as a tool to enable multidisciplinary culture among the students at all levels leads to generate not just engineers but the innovators
-            </p>
+Our mission is twofold: to deliver unparalleled educational solutions and to design innovative products
+that elevate the learning experience. We&#39;re committed to ensuring that our products not only meet but
+exceed the standards of excellence, enabling educators and students to explore, experiment, and
+innovate with confidence.          </p>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none font-semibold text-3xl tracking-wide leading-6 text-teal-600">
-               Our Vision
+              Our Vision
               </h4>
               <div className="h-px flex-auto bg-gray-500" />
             </div>
@@ -54,20 +73,7 @@ function Mission() {
           </div>
         </div>
         </div>
-        {/* Vision */}
-        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
-          <div className="p-8 sm:p-10 lg:flex-auto bg-gray-700">
-            <h3 className="text-3xl font-semibold  text-center tracking-wide text-white">
-              We're <span> Engineers </span><span>| Researchers |</span><span> Innovators</span>
-            </h3>
-            <p className="mt-6 text-base leading-7 text-gray-100 text-center">
-              SiGeTech is a technical expert in providing innovative technology solutions to empower the industry, academic institutions and research labs. With the elite team of Researchers, Engineers, and Entrepreneurs across the world, we provide the best technical solution for your organisation. Our expertise is in cutting-edge technologies spanning across robotics, AI, IoT, and Informative security. SiGeTech supports setting up advanced research labs, connecting R&D partnerships with universities and industries, hardware & software solutions for robotics challenges and technical consultation.
-            </p>
-            
-            
-          </div>
-          
-        </div>
+      
         </div>
     </>
   )

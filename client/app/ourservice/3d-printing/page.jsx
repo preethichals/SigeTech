@@ -32,12 +32,12 @@ const management = [
 function page() {
   return (
     <>
-   {/* breadcrumb */}
+    {/* breadcrumb */}
      <div className='py-4 ps-4'>
 <nav className="flex" aria-label="Breadcrumb">
   <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     <li className="inline-flex items-center">
-      <Link href="/" className="inline-flex items-center text-sm font-medium text-emerald-700 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-white">
+      <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
         <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
           <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
         </svg>
@@ -49,7 +49,7 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
+        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
       </div>
     </li>
     <li aria-current="page">
@@ -57,46 +57,38 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <span className="ms-1 text-sm underline font-medium text-gray-700 md:ms-2 dark:text-gray-400">AI-Lab-Setup</span>
+        <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">3D-Printing</span>
       </div>
     </li>
   </ol>
 </nav>
-</div>  
-{/* AI Lab Setup */}
+</div>
+{/* 3D printing solutions */}
       <div className=" bg-gray-100">
-        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500   font-semibold tracking-widest uppercase  text-neutral-800 sm:text-4xl">
-          AI Lab Setup
-        </h4>
-        <p className="ps-6 py-4 mt-5  container mx-auto text-lg sm:text-base leading-loose text-neutral-800 font-medium tracking-wide">
-          STEMTEC&#39;s AI Lab Setup serves as an innovation hub, providing an immersive platform for
-students to explore the diverse facets of artificial intelligence (AI) and machine learning.
-          <br /> <br /> This
-multifaceted learning space encompasses:
+       <div className="mx-auto max-w-5xl sm:text-center text-center p-4">
+          <h2 className="lg:text-5xl font-bold tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
+           <span className=" ms-3 text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
+             <br/> STEMTEC offers precise and customized
+            </span> 
+            <span className="mt-6 ms-3 text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
+             <br/> <span className="text-yellow-500 font-bold">3D printing solutions</span><br/> tailored to diverse industry needs.
+            </span>
+          </h2>
+        </div>
+        <p className="ps-6 pt-4 mt-5  container mx-auto text-2xl sm:text-2xl lg:leading-loose sm:leading-normal text-gray-700 font-medium tracking-wide">
+          Our
+team employs advanced technology to deliver high-quality 3D prints for various applications.
         </p>
 
         <ul>
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Interactive Learning Modules:
+          <li className="ps-6 py-4  container mx-auto border-b-2 border-gray-400 text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+            <span className="text-emerald-700 font-bold me-1 uppercase text-lg ">
+              Precision and Tailored Printing -
             </span>{" "}
-            Tailored to cater to varying levels of understanding, the
-AI Lab offers comprehensive learning modules. These modules cover a wide spectrum,
-introducing students to basic AI concepts while progressively delving into more
-advanced topics like machine learning algorithms, neural networks, and their
-applications in everyday scenarios.
+           Using cutting-edge 3D printing technology, we ensure accuracy and reliability in every print. Our services
+cover rapid prototyping, detailed modeling, and more, providing efficient and precise printing solutions.
           </li>
-          <li className="ps-6 pb-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Hands-On Experimentation Areas:
-            </span>{" "}
-            Equipped with dedicated experimentation areas,
-students engage in practical exercises using specialized software tools and resources.
-This hands-on approach allows them to develop, train, and fine-tune AI models, gaining
-proficiency in implementing AI algorithms and understanding their real-world
-implications.
-          </li>
-          {/* banner */}
+           {/* banner */}
           <div className=" bg-technology">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
@@ -111,7 +103,7 @@ implications.
                 <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-teal-800 font-medium uppercase tracking-wide ">
-                      AI Lab Setup
+                     3D Printing Services
                     </span>
                   </h1>
                   <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-neutral-700 text-center leading-loose border-white">
@@ -122,25 +114,25 @@ students
               </div>
             </div>
           </div>
+          <li className="ps-6 py-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
+              Customized Solutions Across Industries
+            </span>{" "}
+           STEMTEC&#39;s 3D printing services cater to industries such as product design, engineering, healthcare, and
+more. We collaborate closely with clients to understand their needs, delivering prints that meet specific
+project goals and industry standards.
+          </li>
+         
          {/* Collaborative Research Spaces */}
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="px-6 pb-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-        Collaborative Research Spaces:
+        Reliable 3D Printing Solutions
             </span>{" "}
-            The AI Lab encourages collaborative research projects,
-fostering teamwork and knowledge sharing among students. These spaces provide a
-conducive environment for exploring innovative AI solutions, leading to the generation
-of new ideas and problem-solving approaches.
+            Partnering with STEMTEC means reliable access to professional 3D printing services. Whether for
+prototyping new designs or creating intricate models, our commitment is to deliver high-quality 3D
+prints that foster innovation and streamline project workflows.
           </li>
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
-            <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
-              Ethical AI Discussions:
-            </span>{" "}
-           Emphasizing the ethical considerations of AI, the lab conducts
-discussions and workshops focused on the societal impact of AI technologies. Students
-explore topics such as AI ethics, bias in algorithms, data privacy, and the responsible
-deployment of AI in various domains.
-          </li>
+        
         </ul>
       </div>
 
