@@ -133,12 +133,12 @@ function page() {
       </div>
     </div>
     {/* -------------- */}
-      <div className="bg-gray-400 py-4 sm:py-8">
+      {/* <div className="bg-gray-400 py-4 sm:py-8">
         <div className="mx-auto max-w-7xl px-4 lg:px-4">
           
           <div className="mx-auto  max-w-2xl lg:max-w-4xl">
             <div className="isolate bg-white px-6 py-14 sm:py-12 lg:px-8">
-              {/* constact form */}
+            
               <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-3xl font-semibold tracking-wide text-gray-900 sm:text-4xl">
                   Contact Us
@@ -241,7 +241,7 @@ function page() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
