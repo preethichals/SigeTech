@@ -32,7 +32,7 @@ function Service() {
     <>
     
       <div className="bg-white">
-        <div className=" mx-auto text-center pb-4">
+        <div className=" mx-auto text-center">
           <div className="mx-auto text-center  bg-neutral-200  px-4 pb-1">
             <p className="pt-8 font-medium text-gray-700 ">
               <span className="  text-2xl sm:text-2xl tracking-widest uppercase font-semibold">
