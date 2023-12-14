@@ -29,7 +29,7 @@ function Stem() {
           </div>
           <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
-              src="/cloud-1.jpg"
+              src="/cloud-5.jpg"
               alt=""
               className="object-cover object-center "
             />
@@ -40,7 +40,7 @@ function Stem() {
         <div className="grid my-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
            <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
-              src="/cloud-1.jpg"
+              src="/learn.webp"
               alt=""
               className="object-cover object-center "
             />

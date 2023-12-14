@@ -14,9 +14,9 @@ const callouts = [
     description:
       "Are you passionate about Robotic Technologies but never got the opportunity to learn it through a correct channel?",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
+      "/learn.webp",
     imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+      "learn",
     href: "#",
   },
   {

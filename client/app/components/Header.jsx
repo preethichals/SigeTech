@@ -43,11 +43,12 @@ function Header() {
           <div className="flex lg:flex-1 mx-6 ">
             <div className="flex">
               <div className="flex-grow sm:w-52 w-52">
-                <img
+                    <Link
+                    href="/"><img
                   src="/SigeTech-Logo.jpg"
                   alt="logo"
                   className=" min:w-56 object-cover object-center sm:w-56 w-44"
-                />
+                /></Link>
               </div>
             </div>
           </div>

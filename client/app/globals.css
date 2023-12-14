@@ -22,11 +22,7 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-.bg-tech {
-  background-image: url("../public/header-bg.jpg");
-  background-attachment: fixed;
-  background-position: center;
-}
+
 
 .bg-technology {
   background-image: url("../public/tech-banner.jpg");
@@ -48,8 +44,10 @@ body {
   background-position: center;
 }
 .bg-service {
-  background-image: url("../public/bg-service.jpg");
+  background-image: url("../public/learn.jpeg");
   background-attachment: fixed;
   background-position: center;
+  object-fit: cover;
+  
 }
 
