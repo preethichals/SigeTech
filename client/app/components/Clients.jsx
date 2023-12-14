@@ -3,7 +3,7 @@ import React from "react";
 function Clients() {
   return (
     <>
-    <div className="bg-gray-700 py-4 sm:py-6">
+    <div className="bg-gray-700 py-4 sm:py-6 mx-auto">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <h2 className="text-center mb-8 text-4xl sm:4xl font-semibold leading-loose tracking-widest text-white border-b-2 border-neutral-400">
           Our Happy Clients

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const management = [
@@ -7,6 +8,7 @@ const management = [
     role: 'Co-Founder / CEO',
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      linkedin:"#"
   },
    {
     id:2,
@@ -22,21 +24,7 @@ const management = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-   {
-    id:4,
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-   {
-    id:5,
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
- 
+   
 ]
 
 const advisory = [
@@ -61,20 +49,7 @@ const advisory = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-   {
-    id:4,
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-   {
-    id:5,
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
+   
 
 ]
 
@@ -86,8 +61,8 @@ function OurTeam() {
    
     
 {/* Management Team */}
-<div>
-  <h4 className="mt-4 text-4xl border-t-2 text-center font-medium tracking-wide bg-gray-800  text-white sm:text-4xl py-4">
+<div className=' mx-auto'>
+  <h4 className=" text-4xl border-t-2 text-center font-medium tracking-wide bg-gray-800  text-white sm:text-4xl py-4">
         Meet Our Team Members
       </h4>
 
@@ -105,7 +80,9 @@ function OurTeam() {
                 <img className="h-40 w-40 rounded-lg" src={person.imageUrl} alt="" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                  <p className="mt-1 text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                  <Link href='' target="_blank" rel="noopener noreferrer"><img src='/LinkedIn.png' width={30} height={30} className="me-2 mt-2" /> </Link>
+
                 </div>
               </div>
             </li>
@@ -126,7 +103,9 @@ function OurTeam() {
                 <img className="h-40 w-40 rounded-lg" src={person.imageUrl} alt="" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                  <p className="mt-1 text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                  <Link href='' target="_blank" rel="noopener noreferrer"><img src='/LinkedIn.png' width={30} height={30} className="me-2 mt-2" /> </Link>
+
                 </div>
               </div>
             </li>

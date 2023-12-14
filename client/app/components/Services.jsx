@@ -3,27 +3,23 @@ import React from "react";
 
 const features = [
   {
-    name: "Courses",
-    description:
-      "Discover how a real-world robotic system works, build electromechanical systems, enable autonomous operation ability, and break the barrier between online courses and reality.",
+    name: "Stem Lab Setup",
+    description:"STEM Lab Setup is intricately designed to provide an engaging and interactive learning environment specifically for school students, aimed at nurturing curiosity, fostering exploration",
+        ulr: "",
+  },
+  {
+    name: "AI Lab Setup",
+    description:"AI Lab Setup serves as an innovation hub, providing an immersive platform for students to explore the diverse facets of artificial intelligence (AI) and machine learning",
     ulr: "",
   },
   {
-    name: "Research Collaboration",
-    description:
-      "Be A Key Player in major societal challenges and strengthen national competitiveness in terms of future technology by handshaking with the domain experts",
+    name: "Robotics Lab Setup",
+    description:"Robotics Lab Setup serves as an innovation-driven space designed to ignite curiosity and practical exploration in the realm of robotics and automation",
     ulr: "",
   },
   {
-    name: "Project Consultation & Development",
-    description:
-      "Automate your business processes with autonomous robots to boost productivity, quality, and speed while reducing cost and risk.",
-    ulr: "",
-  },
-  {
-    name: "Robotics Competition",
-    description:
-      "At SiGeTech we Conduct challenging Robotic competitions for students in all age groups. We have various competitions and leagues that target different age groups, each with its characteristics.",
+    name: "PCB Design Services",
+    description:"PCB (Printed Circuit Board) design solutions meticulously crafted to meet diverse industry needs",
     ulr: "",
   },
 ];

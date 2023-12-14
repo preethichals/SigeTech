@@ -19,14 +19,7 @@ const management = [
     name: "Robotics Lab Setup",
     imageUrl: "/cloud-2.jpg",
   },
-  {
-    name: "PCB Design",
-    imageUrl: "/cloud-2.jpg",
-  },
-  {
-    name: "3D Printing Service",
-    imageUrl: "/cloud-2.jpg",
-  },
+ 
 ];
 
 function page() {
@@ -37,7 +30,7 @@ function page() {
 <nav className="flex" aria-label="Breadcrumb">
   <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     <li className="inline-flex items-center">
-      <Link href="/" className="inline-flex items-center text-sm font-medium text-emerald-700 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-white">
+      <Link href="/" className="inline-flex items-center text-sm font-medium text-emerald-700 hover:text-emerald-600  ">
         <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
           <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
         </svg>
@@ -49,7 +42,7 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Our Services</Link>
+        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2  ">Our Services</Link>
       </div>
     </li>
     <li aria-current="page">
@@ -57,18 +50,13 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <span className="ms-1 text-sm underline font-medium text-gray-700 md:ms-2 dark:text-gray-400">Stem-Lab-Setup</span>
+        <span className="ms-1 text-sm underline font-medium text-gray-700 md:ms-2 ">Stem-Lab-Setup</span>
       </div>
     </li>
   </ol>
 </nav>
 </div>   
- {/* Stem Lab Setup */}
-      <div className=" bg-gray-100">
-        {/* <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
-          Stem Lab Setup
-        </h4> */}
-         {/* banner */}
+  {/* banner */}
           <div className="bg-service1">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
@@ -81,7 +69,7 @@ function page() {
                   </a>
                 </div>
                 <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
-                  <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
+                  <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-red-600 font-medium uppercase tracking-wide ">
                       STEM Lab Setup
                     </span>
@@ -94,6 +82,12 @@ function page() {
               </div>
             </div>
           </div>
+ {/* Stem Lab Setup */}
+      <div className=" bg-gray-200">
+       <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
+          
+        </h4> 
+       
         <p className="ps-6 py-4 mt-5  container mx-auto text-lg sm:text-base leading-loose text-neutral-800 font-medium tracking-wide">
           STEMTEC&#39;s STEM Lab Setup is intricately designed to provide an
           engaging and interactive learning environment specifically for school
@@ -126,32 +120,8 @@ function page() {
             students to explore and experiment with scientific ideas in an
             accessible manner.
           </li>
-          {/* banner */}
-          <div className="bg-service1">
-            <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
-              <div className="text-center mt-10 mb-12 p-5">
-                <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ">
-                  <a href="#" className="font-semibold text-yellow-600">
-                    <span
-                      className="absolute inset-0 ps-2"
-                      aria-hidden="true"
-                    />{" "}
-                  </a>
-                </div>
-                <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
-                  <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
-                    <span className=" text-red-600 font-medium uppercase tracking-wide ">
-                      STEM Lab Setup
-                    </span>
-                  </h1>
-                  <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-yellow-800 text-center leading-loose border-gray-500">
-                    Intricately design to provide an engaging and interactive
-                    learning environment
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+        
+        
           <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Project-Based Learning Platforms:
@@ -175,7 +145,7 @@ function page() {
         </ul>
       </div>
 
-      <div className="pt-4 pb-3 text-wrap container mx-auto">
+      <div className="pt-4 pb-0 text-wrap container mx-auto">
         <p className="mt-2 p-4 container mx-auto text-md sm:text-md leading-loose text-neutral-800 font-normal text-center tracking-widest">
           Catering explicitly to school students, STEMTEC&#39;s STEM Lab Setup
           aspires to ignite a passion for science, technology, engineering, and
@@ -194,15 +164,15 @@ function page() {
         </p>
       </div>
       <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">
-        <div className="relative isolate overflow-hidden bg-white px-6 pt-4 sm:rounded-3xl sm:px-4 md:pt-4 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-          <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:py-4 lg:text-center">
+        <div className="relative isolate overflow-hidden bg-white px-6 sm:rounded-3xl sm:px-4 md:pt-0 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+          <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:text-center">
             {/* Image */}
 
-            <div className="bg-white py-3 sm:py-3 container mx-auto ">
-              <div className="mx-auto grid  px-6 lg:px-4">
+            <div className="bg-white py-1 sm:py-1 container mx-auto ">
+              <div className="mx-auto py-4 grid  px-6 lg:px-4">
                 <ul
                   role="list"
-                  className=" mx-auto grid grid-flow-row justify-stretch gap-8  sm:grid-cols-2 lg:grid-cols-3 sm:gap-8 xl:col-span-2"
+                  className=" mx-auto grid grid-flow-row justify-stretch gap-4 lg:grid-cols-4 sm:grid-cols-2  sm:gap-4 xl:col-span-2"
                 >
                   {management.map((person) => (
                     <li
@@ -211,7 +181,7 @@ function page() {
                     >
                       <Link href="#">
                         <Image
-                          className="mx-auto h-50 w-auto mt-4 shadow-xl rounded-lg border-2 border-neutral-300 p-3"
+                          className="mx-auto h-50 w-auto mt-4 shadow-xl rounded-lg border-2 border-neutral-300 p-2"
                           src={person.imageUrl}
                           width={500}
                           height={500}

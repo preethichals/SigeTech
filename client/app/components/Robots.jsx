@@ -55,7 +55,7 @@ function Robots() {
             </div>
             <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
            
-              <h1 className="mb-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
+              <h1 className="mb-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                 <span className=" leading-relaxed text-gray-700 ">
                   Learn, Build and Deploy <br />
                 </span>{" "}

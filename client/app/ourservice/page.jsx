@@ -22,7 +22,7 @@ function page() {
                   </a>
                 </div>
                 <div className=" bg-sky-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
-                  <h1 className="my-4 text-4xl font-medium text-gray-900 dark:text-white md:text-5xl lg:text-5xl sm:text-5xl">
+                  <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-teal-800 font-medium uppercase tracking-wide ">
                       Robotics Lab Setup
                     </span>

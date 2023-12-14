@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <>
-      <div className=" bg-neutral-900 container mx-auto max-w-full shadow dark:bg-gray-900">
+      <div className=" bg-neutral-900 container mx-auto max-w-full shadow ">
         <div className="w-full max-w-screen-xl py-1 text-slate-50">
           {/* For Advertisement */}
           <div className="sm:flex sm:justify-between text-sm flex font-light">

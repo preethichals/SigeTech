@@ -29,11 +29,11 @@ manufacture innovative products that enhance the learning journey and laboratory
           </p>
             
           </div>
-        <div className="mx-auto mt-6 max-w-2xl sm:mt-8 lg:mt-8 lg:max-w-none container">
-          <dl className="grid max-w-2xl grid-cols-1  gap-y-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
+        <div className="mx-auto mt-6 max-w-2xl sm:mt-8 lg:mt-8 lg:max-w-none container pb-8">
+          <dl className="grid max-w-2xl grid-cols-1 shadow-xl  gap-y-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
             {features.map((feature) => (
               <div key={feature.name} className="relative p-6">
-                <dt className="text-xl font-semibold leading-7 text-gray-900">
+                <dt className="text-xl font-semibold leading-7 text-yellow-500">
                 
                   {feature.name}
                 </dt>
