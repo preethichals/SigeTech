@@ -19,7 +19,7 @@ function page() {
             We are <span classname="font-bold">Almost</span> There!
           </h1>
           <p className=" text-center font-light text-gray-700 md:text-lg xl:text-xl ">
-            We're currently in the process of adding new products to our collection.
+            We're currently in the process of adding products to our collection.
           </p>
         </div>
       </section>

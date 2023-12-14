@@ -114,15 +114,24 @@ function Header() {
                 </div>
                 <div className="py-6 bg-yellow-500 px-5">
                   <p className="my-3 tracking-widest uppercase text-emerald-700 font-bold">
-                    Services
+                    Connect
                   </p>
+                  
                   <Link
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Course
+                    LinkedIn
+                  </Link>
+                   <Link
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Mail Us
                   </Link>
                   <Link
                     href=""
@@ -130,16 +139,9 @@ function Header() {
                     rel="noopener noreferrer"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    FaceBook
+                  Location
                   </Link>
-                  <Link
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Twitter
-                  </Link>
+                 
                  
                 </div>
               </div>
