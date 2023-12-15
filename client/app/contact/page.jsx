@@ -16,7 +16,7 @@ function page() {
 
   const form = React.createRef();
 
- 
+ // service id - service_0tf08md
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -97,9 +97,9 @@ function page() {
                 <div className="flex flex-row justify-center items-center my-2">
                   <img src="/map.png" width={50} height={50} className="me-2" />
                   <section className="items-center">
-                    <p className=" tracking-wide">No.603, Vandalur</p>
-                    <p className=" tracking-wide">Periyar nagar,</p>
-                    <p className=" tracking-wide">Chennai-600127</p>
+                    <p className=" tracking-wide">#603, 3rd street,</p>
+                    <p className=" tracking-wide">Vandalur - Kelambakkam Road,</p>
+                    <p className=" tracking-wide">Samathuvapuram, Mambakkam, Chennai-600127</p>
                   </section>
                 </div>
               </div>
