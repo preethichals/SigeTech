@@ -155,8 +155,7 @@ discussions,
          the lab prepares students to responsibly navigate the complexities of AI in their
 academic and professional pursuits.
         </p>
-      </div>
-      <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">
+         <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">
         <div className="relative isolate overflow-hidden bg-white px-6 pt-4 sm:rounded-3xl sm:px-4 md:pt-4 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:text-center">
             {/* Image */}
@@ -189,6 +188,8 @@ academic and professional pursuits.
           </div>
         </div>
       </div>
+      </div>
+     
     </>
   );
 }

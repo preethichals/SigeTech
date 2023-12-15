@@ -93,6 +93,41 @@ function page() {
             identification, Idea generation to developing a physical system that
             can be deployed in real-time.{" "}
           </p>
+           <div className="mx-auto container  sm:px-6 sm:py-2 lg:px-8 bg-white ">
+            <div className="relative isolate overflow-hidden bg-white px-6 pt-4 shadow-xl sm:rounded-3xl sm:px-4 md:pt-4 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+              <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:py-8 lg:text-center">
+                {/* Image */}
+
+                <div className="bg-white py-6 sm:py-6 ">
+                  <div className="mx-auto grid  px-6 lg:px-4">
+                    <ul
+                      role="list"
+                      className=" mx-auto grid grid-flow-row justify-stretch gap-12  sm:grid-cols-2 lg:grid-cols-3 sm:gap-12 xl:col-span-2"
+                    >
+                      {management.map((person) => (
+                        <li
+                          key={person.name}
+                          className="mx-auto justify-items-center"
+                        >
+                          <h2 className=" text-lg cursor-pointer rounded-md tracking-widest bg-yellow-500 px-2 py-1 text-mg font-medium uppercase text-gray-900 hover:text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                            {" "}
+                            {person.name}
+                          </h2>
+                          <Link href="#">
+                            <Image
+                              className="mx-auto h-50 w-auto mt-4 rounded-lg border-2 border-neutral-400 p-3"
+                              src={person.imageUrl} width={500} height={500}
+                              alt="Your Company"
+                            />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   </div>
         <div className="mx-auto container  sm:px-6 sm:py-2 lg:px-8 bg-white ">
             <div className="relative isolate overflow-hidden bg-white px-6 pt-4 shadow-xl sm:rounded-3xl sm:px-4 md:pt-4 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
