@@ -105,7 +105,7 @@ introducing students to basic AI concepts while progressively delving into more
 advanced topics like machine learning algorithms, neural networks, and their
 applications in everyday scenarios.
           </li>
-          <li className="ps-6 pb-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 pb-2  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Hands-On Experimentation Areas:
             </span>{" "}
@@ -117,7 +117,7 @@ implications.
           </li>
          
          {/* Collaborative Research Spaces */}
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 py-2  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
         Collaborative Research Spaces:
             </span>{" "}

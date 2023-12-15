@@ -30,7 +30,7 @@ function page() {
 <nav className="flex" aria-label="Breadcrumb">
   <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
     <li className="inline-flex items-center">
-      <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600  ">
+      <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-emerald-600  ">
         <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
           <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
         </svg>
@@ -42,7 +42,7 @@ function page() {
         <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 9 4-4-4-4" />
         </svg>
-        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2  ">Our Services</Link>
+        <Link href="/ourservice" className="ms-1 text-sm font-medium text-gray-700 hover:text-emerald-600 md:ms-2  ">Our Services</Link>
       </div>
     </li>
     <li aria-current="page">
@@ -56,7 +56,26 @@ function page() {
   </ol>
 </nav>
 </div>
- {/* banner */}
+
+{/* 3D printing solutions */}
+      <div className=" bg-gray-200">
+       
+       <div className="mx-auto py-4 max-w-5xl sm:text-center text-center p-2">
+          <h2 className="lg:text-5xl font-bold tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
+           <span className=" text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
+              STEMTEC offers precise and customized
+            </span> 
+            <span className=" text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
+             <br/><span className="text-yellow-500 font-bold"> 3D printing solutions</span><br/> tailored to diverse industry needs.
+            </span>
+          </h2>
+        </div>
+        <p className="ps-6 pt-1 mt-2 pb-6  container mx-auto text-2xl sm:text-2xl lg:leading-loose sm:leading-normal text-gray-700 font-medium tracking-wide">
+          Our
+team employs advanced technology to deliver high-quality 3D prints for various applications.
+        </p>
+
+         {/* banner */}
           <div className=" bg-technology">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
@@ -82,28 +101,11 @@ students
               </div>
             </div>
           </div>
-{/* 3D printing solutions */}
-      <div className=" bg-gray-200">
-        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
+ <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
           
         </h4> 
-       <div className="mx-auto max-w-5xl sm:text-center text-center p-2">
-          <h2 className="lg:text-5xl font-bold tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
-           <span className=" text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
-              STEMTEC offers precise and customized
-            </span> 
-            <span className=" text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
-             <span className="text-yellow-500 font-bold"> 3D printing solutions</span> tailored to diverse industry needs.
-            </span>
-          </h2>
-        </div>
-        <p className="ps-6 pt-1 mt-2  container mx-auto text-2xl sm:text-2xl lg:leading-loose sm:leading-normal text-gray-700 font-medium tracking-wide">
-          Our
-team employs advanced technology to deliver high-quality 3D prints for various applications.
-        </p>
-
         <ul>
-          <li className="ps-6 py-4  container mx-auto border-b-2 border-gray-400 text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold me-1 uppercase text-lg ">
               Precision and Tailored Printing -
             </span>{" "}
@@ -111,7 +113,7 @@ team employs advanced technology to deliver high-quality 3D prints for various a
 cover rapid prototyping, detailed modeling, and more, providing efficient and precise printing solutions.
           </li>
           
-          <li className="ps-6 py-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 pb-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Customized Solutions Across Industries
             </span>{" "}
@@ -121,7 +123,7 @@ project goals and industry standards.
           </li>
          
          {/* Collaborative Research Spaces */}
-          <li className="px-6 pb-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="px-6 pb-4 container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
         Reliable 3D Printing Solutions
             </span>{" "}

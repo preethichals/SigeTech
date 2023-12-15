@@ -109,7 +109,7 @@ function page() {
             impart a practical understanding of scientific concepts in engaging
             and relatable ways.
           </li>
-          <li className="ps-6 pb-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 pb-6  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Innovative Technological Tools:
             </span>{" "}
@@ -122,7 +122,7 @@ function page() {
           </li>
         
         
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 py-2 container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Project-Based Learning Platforms:
             </span>{" "}
@@ -132,7 +132,7 @@ function page() {
             practically, fostering critical thinking and collaboration skills
             essential for their academic journey.
           </li>
-          <li className="ps-6 py-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 py-4 container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Adaptable Configurations for School Curriculum:
             </span>{" "}

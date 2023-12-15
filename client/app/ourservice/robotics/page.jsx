@@ -56,7 +56,23 @@ function page() {
   </ol>
 </nav>
 </div>   
-  {/* banner */}
+ 
+{/* Robotics Lab Setup */}
+      <div className=" bg-gray-200">
+       
+         <div className="mx-auto max-w-7xl sm:text-center text-center p-4">
+          <h2 className="lg:text-5xl font-bold  pb-4 tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
+           <span className=" ms-3 text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
+             <br/> STEMTEC&#39;s<span className="text-yellow-500 font-bold"> Robotics Lab Setup</span><br/> serves as an innovation-driven space
+            </span> 
+            <span className="mt-6 ms-3 text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
+designed to ignite curiosity
+and practical exploration in the realm of<span className=" text-emerald-800">robotics and automation.</span> 
+            </span>
+          </h2>
+        </div>
+        
+    {/* banner */}
           <div className=" bg-technology">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
@@ -81,26 +97,11 @@ function page() {
               </div>
             </div>
           </div>
-{/* Robotics Lab Setup */}
-      <div className=" bg-gray-200">
-        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
+ <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
           
         </h4> 
-         <div className="mx-auto max-w-7xl sm:text-center text-center p-4">
-          <h2 className="lg:text-5xl font-bold border-b-2 border-gray-400 pb-4 tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
-           <span className=" ms-3 text-3xl  text-gray-600 lg:text-3xl font-bold tracking-wide sm:text-3xl">
-             <br/> STEMTEC&#39;s<span className="text-yellow-500 font-bold"> Robotics Lab Setup</span><br/> serves as an innovation-driven space
-            </span> 
-            <span className="mt-6 ms-3 text-3xl sm:text-3xl text-gray-600 lg:text-3xl font-bold tracking-wide ">
-designed to ignite curiosity
-and practical exploration in the realm of<span className=" text-emerald-800">robotics and automation.</span> 
-            </span>
-          </h2>
-        </div>
-   
-
         <ul>
-          <li className="ps-6 pt-2 pb-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 pt-4 pb-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
           Comprehensive Robotics Platforms:
             </span>{" "}
@@ -109,7 +110,7 @@ tailored for various skill levels, the lab enables students to interact with rob
 systems, from basic to advanced configurations. These platforms serve as a foundation
 for students to explore robotics concepts and experiment with diverse functionalities.
           </li>
-          <li className="ps-6 pb-8  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 pb-2  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
               Practical Experimentation Zones:
             </span>{" "}
@@ -119,7 +120,7 @@ robotics. These zones allow for experimentation with sensors, actuators, and
 programming languages, fostering a deeper understanding of robotic mechanisms.
           </li>
         
-          <li className="ps-6 py-4 mt-4  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
+          <li className="ps-6 py-2  container mx-auto text-base sm:text-md leading-loose text-neutral-800 font-normal tracking-wide">
             <span className="text-emerald-700 font-bold uppercase me-1 text-lg">
              Industry Collaboration and Practical Applications:
             </span>{" "}
