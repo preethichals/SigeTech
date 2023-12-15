@@ -51,3 +51,12 @@ body {
   
 }
 
+.bg-ser {
+  background-image: url("../public/stem-lab.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+
+}
+

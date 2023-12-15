@@ -57,7 +57,7 @@ function page() {
 </nav>
 </div>   
   {/* banner */}
-          <div className="bg-service1">
+          <div className="bg-ser">
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
                 <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ">
@@ -162,8 +162,7 @@ function page() {
           </span>{" "}
           and a lifelong interest in STEM subjects.
         </p>
-      </div>
-      <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">
+          <div className="mx-auto sm:px-3 sm:py-2 lg:px-4 bg-white ">
         <div className="relative isolate overflow-hidden bg-white px-6 sm:rounded-3xl sm:px-4 md:pt-0 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <div className="mx-auto max-w-7xl text-center lg:mx-0 lg:flex-auto lg:text-center">
             {/* Image */}
@@ -196,6 +195,8 @@ function page() {
           </div>
         </div>
       </div>
+      </div>
+    
     </>
   );
 }
