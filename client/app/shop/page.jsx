@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function page() {
@@ -21,6 +22,13 @@ function page() {
           <p className=" text-center font-light text-gray-700 md:text-lg xl:text-xl ">
             We're currently in the process of adding products to our collection.
           </p>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <Link
+              href="/"
+              className="rounded-md bg-gray-600 tracking-widest px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Go back Home
+            </Link></div>
         </div>
       </section>
     </>

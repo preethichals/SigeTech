@@ -37,7 +37,7 @@ function Stem() {
         </div>
 
         {/* AI Lab Setup */}
-        <div className="grid my-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
+        <div className="grid my-6  w-full grid-cols-1 bg-gray-600 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
            <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
               src="/learn.webp"
@@ -92,7 +92,7 @@ and Practical exploration in the realm of Robotics and Automation.
         </div>
 
         {/* PCB Design */}
-          <div className="grid my-6  w-full grid-cols-1 bg-gray-700 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
+          <div className="grid my-6  w-full grid-cols-1 bg-gray-600 p-8  items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8 mx-auto">
            <div className="aspect-h-3 aspect-w-2 overflow-hidden  bg-white sm:col-span-4 md:col-span-4 lg:col-span-5 rounded-image">
             <img
               src="/cloud-1.jpg"

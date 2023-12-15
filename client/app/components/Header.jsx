@@ -64,13 +64,13 @@ function Header() {
           </div>
           <div className="hidden lg:flex lg:gap-x-4 ms-auto bg-white ">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className="hover:bg-gray-900  hover:underline tracking-widest scale-100 hover:scale-105 transition scroll-smooth hover:text-gray-50 ease-in-out delay-150  duration-500 rounded-lg hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium text-gray-900 "
               >
                 {item.name}
-              </a>
+             </Link>
             ))}
           </div>
           
@@ -84,13 +84,13 @@ function Header() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-300 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              {/* <a
+              {/* <Link
                 href="#"
                 className="-m-1.5 p-1.5 font-semibold tracking-wide  rounded-md"
               >
                 <span className="sr-only">Logo</span>
                 Welcome to Sige Tech
-              </a> */}
+             </Link> */}
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -104,13 +104,13 @@ function Header() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium tracking-wide leading-7 text-gray-900 hover:bg-gray-50 hover:font-semibold hover:underline"
                     >
                       {item.name}
-                    </a>
+                   </Link>
                   ))}
                 </div>
                 <div className="py-6 bg-yellow-500 px-5">

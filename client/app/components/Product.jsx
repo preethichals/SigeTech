@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import React from "react";
 
@@ -22,12 +23,12 @@ function Product() {
                     <div className="uppercase tracking-wide text-sm text-emerald-700 font-semibold">
                       Smorphi-V2
                     </div>
-                    <a
+                   <Link
                       href="#"
                       className="block mt-1 text-md leading-tight font-medium text-neutral-800 hover:underline"
                     >
                       Tetris-inspired Educational Robot
-                    </a>
+                   </Link>
                     <p className="mt-2 pt-2 border-t-2 border-neutral-400 text-sm leading-6 text-gray-600 line-clamp-5">
                       Smorphi-V2 is a first-of-its-kind Tetris-inspired
                       educational robot that is modular, programmable, and
@@ -56,12 +57,12 @@ function Product() {
                     <div className="uppercase tracking-wide text-sm text-emerald-700 font-semibold">
                       Smorphi-V2
                     </div>
-                    <a
+                   <Link
                       href="#"
                       className="block mt-1 text-md leading-tight font-medium text-neutral-800 hover:underline"
                     >
                       Tetris-inspired Educational Robot
-                    </a>
+                   </Link>
                     <p className="mt-2 pt-2 border-t-2 border-neutral-400 text-sm leading-6 text-gray-600 line-clamp-5">
                       Smorphi-V2 is a first-of-its-kind Tetris-inspired
                       educational robot that is modular, programmable, and

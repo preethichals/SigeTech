@@ -17,22 +17,20 @@ body {
   background-color: #FFFFFF;
 }
 
-.bg-image1 {
-  background-image: url("../public/bg1.jpg");
-  background-attachment: fixed;
-  background-position: center;
-}
+
 
 
 .bg-technology {
   background-image: url("../public/tech-banner.jpg");
   background-attachment: fixed;
   background-position: center;
+  object-position: center;
 }
 .bg-about {
   background-image: url("../public/learn.jpeg");
   background-attachment: fixed;
   background-position: center;
+    object-position: center;
 }
 .rounded-image{
  border-radius: 80px 0px 80px 0px;
@@ -42,12 +40,14 @@ body {
   background-image: url("../public/header-bg\ copy.jpg");
   background-attachment: fixed;
   background-position: center;
+    object-position: center;
 }
 .bg-service {
   background-image: url("../public/learn.jpeg");
   background-attachment: fixed;
   background-position: center;
   object-fit: cover;
+    object-position: center;
   
 }
 

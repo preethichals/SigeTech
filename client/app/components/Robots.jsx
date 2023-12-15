@@ -26,7 +26,7 @@ const callouts = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
     imageAlt:
-      "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+      "product",
     href: "#",
   },
   {
@@ -35,7 +35,7 @@ const callouts = [
       "Are you disappointed with the services that you have got so far in terms of robot development and R&D consultation?",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+    imageAlt: "service",
     href: "#",
   },
 ];
@@ -100,10 +100,10 @@ function Robots() {
                     </div>
 
                     <h3 className="mt-6 rounded-lg hover:text-slate-100 hover:bg-emerald-700 border-b-2 border-yellow-500 text-center font-semibold tracking-widest text-xl uppercase mb-2 p-1 text-teal-800 bg-white">
-                      <a href={callout.href}>
+                      <Link href={callout.href}>
                         <span className="absolute inset-0" />
                         {callout.name}
-                      </a>
+                      </Link>
                     </h3>
                     <p className="text-base font-medium  text-emerald-900 text-center tracking-wide pt-1 px-3 leading-relaxed">
                       {callout.description}

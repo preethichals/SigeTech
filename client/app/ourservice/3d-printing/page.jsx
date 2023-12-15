@@ -61,12 +61,12 @@ function page() {
             <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
               <div className="text-center mt-10 mb-12 p-5">
                 <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ">
-                  <a href="#" className="font-semibold text-yellow-600">
+                  <Link href="#" className="font-semibold text-yellow-600">
                     <span
                       className="absolute inset-0 ps-2"
                       aria-hidden="true"
                     />{" "}
-                  </a>
+                  </Link>
                 </div>
                 <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
