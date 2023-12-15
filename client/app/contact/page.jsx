@@ -97,9 +97,9 @@ function page() {
                 <div className="flex flex-row justify-center items-center my-2">
                   <img src="/map.png" width={50} height={50} className="me-2" />
                   <section className="items-center">
-                    <p className=" tracking-wide">#603, 3rd street, Vandalur</p>
-                    <p className=" tracking-wide"> Kelambakkam Road, Samathuvapuram,</p>
-                    <p className=" tracking-wide"> Mambakkam, Chennai-600127</p>
+                    <p className=" tracking-wide">603, 3rd street, Vandalur - Kelambakkam Road, Samathuvapuram Mambakkam Chennai-600127</p>
+                    <p className=" tracking-wide"></p>
+                    <p className=" tracking-wide"></p>
                   </section>
                 </div>
               </div>
