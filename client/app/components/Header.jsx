@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/" },
-   { name: "About Us", href: "/about" },
+  { name: "About Us", href: "/about" },
   { name: "Services", href: "/ourservice" },
   { name: "Shop Now", href: "/shop" },
   { name: "Contact Us", href: "/contact" },
@@ -22,15 +22,8 @@ function Header() {
         <div className="w-full max-w-screen-xl py-1 text-slate-50">
           {/* For Advertisement */}
           <div className="sm:flex sm:justify-between text-sm flex font-light">
-            <Link
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h5 className="tracking-widest px-1">
-                {" "}
-                
-              </h5>
+            <Link href="" target="_blank" rel="noopener noreferrer">
+              <h5 className="tracking-widest px-1"> </h5>
             </Link>
           </div>
         </div>
@@ -43,12 +36,13 @@ function Header() {
           <div className="flex lg:flex-1 mx-6 ">
             <div className="flex">
               <div className="flex-grow sm:w-52 w-52">
-                    <Link
-                    href="/"><img
-                  src="/SigeTech-Logo.jpg"
-                  alt="logo"
-                  className=" min:w-56 object-cover object-center sm:w-56 w-44"
-                /></Link>
+                <Link href="/">
+                  <img
+                    src="/SigeTech-Logo.jpg"
+                    alt="logo"
+                    className=" min:w-56 object-cover object-center sm:w-56 w-44"
+                  />
+                </Link>
               </div>
             </div>
           </div>
@@ -70,10 +64,9 @@ function Header() {
                 className="hover:bg-gray-900  hover:underline tracking-widest scale-100 hover:scale-105 transition scroll-smooth hover:text-gray-50 ease-in-out delay-150  duration-500 rounded-lg hover:font-medium bg-white px-4 py-1 inline-block text-lg font-medium text-gray-900 "
               >
                 {item.name}
-             </Link>
+              </Link>
             ))}
           </div>
-          
         </nav>
         <Dialog
           as="div"
@@ -110,14 +103,14 @@ function Header() {
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium tracking-wide leading-7 text-gray-900 hover:bg-gray-50 hover:font-semibold hover:underline"
                     >
                       {item.name}
-                   </Link>
+                    </Link>
                   ))}
                 </div>
                 <div className="py-6 bg-yellow-500 px-5">
                   <p className="my-3 tracking-widest uppercase text-emerald-700 font-bold">
                     Connect
                   </p>
-                  
+
                   <Link
                     href=""
                     target="_blank"
@@ -126,7 +119,7 @@ function Header() {
                   >
                     LinkedIn
                   </Link>
-                   <Link
+                  <Link
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
@@ -140,18 +133,14 @@ function Header() {
                     rel="noopener noreferrer"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                  Location
+                    Location
                   </Link>
-                 
-                 
                 </div>
               </div>
-              
             </div>
           </Dialog.Panel>
         </Dialog>
       </header>
-       
     </>
   );
 }

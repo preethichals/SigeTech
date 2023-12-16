@@ -4,22 +4,26 @@ import React from "react";
 const features = [
   {
     name: "Stem Lab Setup",
-    description:"STEM Lab Setup is intricately designed to provide an engaging and interactive learning environment specifically for school students, aimed at nurturing curiosity, fostering exploration",
-        ulr: "",
+    description:
+      "STEM Lab Setup is intricately designed to provide an engaging and interactive learning environment specifically for school students, aimed at nurturing curiosity, fostering exploration",
+    ulr: "",
   },
   {
     name: "AI Lab Setup",
-    description:"AI Lab Setup serves as an innovation hub, providing an immersive platform for students to explore the diverse facets of artificial intelligence (AI) and machine learning",
+    description:
+      "AI Lab Setup serves as an innovation hub, providing an immersive platform for students to explore the diverse facets of artificial intelligence (AI) and machine learning",
     ulr: "",
   },
   {
     name: "Robotics Lab Setup",
-    description:"Robotics Lab Setup serves as an innovation-driven space designed to ignite curiosity and practical exploration in the realm of robotics and automation",
+    description:
+      "Robotics Lab Setup serves as an innovation-driven space designed to ignite curiosity and practical exploration in the realm of robotics and automation",
     ulr: "",
   },
   {
     name: "PCB Design Services",
-    description:"PCB (Printed Circuit Board) design solutions meticulously crafted to meet diverse industry needs",
+    description:
+      "PCB (Printed Circuit Board) design solutions meticulously crafted to meet diverse industry needs",
     ulr: "",
   },
 ];

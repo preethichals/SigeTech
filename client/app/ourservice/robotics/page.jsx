@@ -166,7 +166,7 @@ the challenges and innovations shaping the future of automation.</span>
                       className="mx-auto justify-items-center"
                     >
                       <Link href="#">
-                        <Image
+                        <img
                           className="mx-auto h-50 w-auto mt-1 shadow-xl rounded-lg border-2 border-neutral-300 p-2"
                           src={person.imageUrl}
                           width={500}

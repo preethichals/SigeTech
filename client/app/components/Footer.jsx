@@ -7,11 +7,17 @@ function Footer() {
       <div className="w-full  mx-auto p-4 text-slate-50">
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="block text-sm  sm:text-center ">
-            <Link href="mailto:preethi.lyn@gmail.com" className="hover:underline">
+            <Link
+              href="mailto:preethi.lyn@gmail.com"
+              className="hover:underline"
+            >
               {" "}
               Created by Preethi-- © 2023{" "}
             </Link>
-            <Link href="mailto:peterindia@gmail.com" className="hover:underline">
+            <Link
+              href="mailto:peterindia@gmail.com"
+              className="hover:underline"
+            >
               SigeTech™
             </Link>
             . All Rights Reserved.
@@ -35,7 +41,10 @@ function Footer() {
             </li>
 
             <li>
-              <Link href="mailto:peterindia@gmail.com" className="hover:underline">
+              <Link
+                href="mailto:peterindia@gmail.com"
+                className="hover:underline"
+              >
                 Contact
               </Link>
             </li>
@@ -58,7 +67,11 @@ function Footer() {
                       className="me-2"
                     />
                   </Link>{" "}
-                  <Link href="https://wa.me/<number>" target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href="https://wa.me/<number>"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       src="/WhatsApp.png"
                       width={30}

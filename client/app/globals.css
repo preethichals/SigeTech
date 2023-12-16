@@ -25,6 +25,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   object-position: center;
+
 }
 .bg-about {
   background-image: url("../public/learn.jpeg");

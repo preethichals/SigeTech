@@ -13,10 +13,8 @@ const callouts = [
     name: "Learn",
     description:
       "Are you passionate about Robotic Technologies but never got the opportunity to learn it through a correct channel?",
-    imageSrc:
-      "/learn.webp",
-    imageAlt:
-      "learn",
+    imageSrc: "/learn.webp",
+    imageAlt: "learn",
     href: "#",
   },
   {
@@ -25,8 +23,7 @@ const callouts = [
       "Are you exited about Robots but didn't find the right product to start your exploratory journey?",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
-    imageAlt:
-      "product",
+    imageAlt: "product",
     href: "#",
   },
   {
@@ -45,16 +42,18 @@ function Robots() {
     <>
       <div className=" bg-technology">
         <div className="mx-auto max-w-2xl py-14 sm:py-10 lg:py-15">
-           
           <div className="text-center mt-10 mb-12 p-5">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 bg-white text-gray-600 ">
-           Courses We Offer, Project Consultation and Development, 
-              <Link href="/ourservice" className="font-semibold text-yellow-600">
-                <span className="absolute inset-0 ps-2" aria-hidden="true" /> View Our Services <span aria-hidden="true">&rarr;</span>
+              Courses We Offer, Project Consultation and Development,
+              <Link
+                href="/ourservice"
+                className="font-semibold text-yellow-600"
+              >
+                <span className="absolute inset-0 ps-2" aria-hidden="true" />{" "}
+                View Our Services <span aria-hidden="true">&rarr;</span>
               </Link>
             </div>
             <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
-           
               <h1 className="mb-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                 <span className=" leading-relaxed text-gray-700 ">
                   Learn, Build and Deploy <br />
@@ -67,8 +66,6 @@ function Robots() {
                 To Automate Your Real-World Environment
               </p>
             </div>
-
-             
           </div>
         </div>
 

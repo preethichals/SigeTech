@@ -114,7 +114,7 @@ function page() {
                             {person.name}
                           </h2>
                           <Link href="#">
-                            <Image
+                            <img
                               className="mx-auto h-50 w-auto mt-4 rounded-lg border-2 border-neutral-400 p-3"
                               src={person.imageUrl} width={500} height={500}
                               alt="Your Company"
@@ -150,7 +150,7 @@ function page() {
                             {person.name}
                           </h2>
                           <Link href="#">
-                            <Image
+                            <img
                               className="mx-auto h-50 w-auto mt-4 rounded-lg border-2 border-neutral-400 p-3"
                               src={person.imageUrl} width={500} height={500}
                               alt="Your Company"
