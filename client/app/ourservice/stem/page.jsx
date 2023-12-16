@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 
 const management = [
   {
@@ -68,7 +67,7 @@ function page() {
                     />{" "}
                   </Link>
                 </div>
-                <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+                <div className=" bg-white mt-4 bg-opacity-80 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-red-600 font-medium uppercase tracking-wide ">
                       STEM Lab Setup
@@ -83,7 +82,7 @@ function page() {
             </div>
           </div>
  {/* Stem Lab Setup */}
-      <div className=" bg-gray-200">
+      <div className=" bg-gray-100 border-b-2">
        <h4 className="text-4xl block  px-2 py-4 text-center bg-yellow-500 font-semibold tracking-widest uppercase  text-neutral-700 sm:text-4xl">
           
         </h4> 

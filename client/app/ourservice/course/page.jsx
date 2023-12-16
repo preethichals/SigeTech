@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Image from 'next/image'
 
 
 const management = [
@@ -62,7 +61,7 @@ function page() {
                 <span className="absolute inset-0 ps-2" aria-hidden="true" /> View Our Services <span aria-hidden="true">&rarr;</span>
               </Link>
             </div>
-            <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+            <div className=" bg-gray-200 mt-4 bg-opacity-80 rounded-lg py-3 px-5">
            
               <h1 className="mb-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                 <span className="text-transparent leading-relaxed bg-clip-text bg-gradient-to-l to-yellow-500 from-teal-800">

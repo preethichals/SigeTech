@@ -16,14 +16,14 @@ function page() {
                 <span className="absolute inset-0 ps-2" aria-hidden="true" />{" "}
               </Link>
             </div>
-            <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+            <div className=" bg-gray-200 mt-4 bg-opacity-80 rounded-lg py-3 px-5">
               <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                 <span className=" text-teal-800 font-medium uppercase tracking-wide ">
                   <span className="text-yellow-500">Welcome to</span>{" "}
                   <span className="text-emerald-600">StemTec</span>
                 </span>
               </h1>
-              <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-neutral-700 text-center leading-loose border-white">
+              <p className="my-6 sm:text-xl uppercase text-xl tracking-widest border-t-2 font-semibold pt-4 text-neutral-700 text-center leading-loose border-gray-500">
                 Where Innovation in Education and Product Development Thrives!
               </p>
             </div>

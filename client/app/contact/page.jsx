@@ -36,22 +36,24 @@ function page() {
   return (
     <>
       <div className="bg-white ">
-        <div className="mx-auto bg-white grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <div className="mx-auto bg-white grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 px-4 py-20 sm:px-6 sm:py-22 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div className="bg-white">
             <h2 className="text-3xl mt-6 mb-6 font-bold tracking-tight text-yellow-500 sm:text-4xl">
               Contact Us
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-3xl">
-              Lorem ipsum dolor sit amet
+            <p className="mt-2 text-2xl font-semibold tracking-tight text-gray-600 sm:text-2xl">
+               We value your feedback, inquiries, and suggestions.
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+             Please feel free to get in touch with us using the information below.
+              <br/><span className="font-semibold tracking-wider text-sky-600">Business Hours : </span>
+ Our team is available to assist you during the following hours: Monday to Friday - [ <span className="text-emerald-500">9am to 6pm</span> ]
+
+
             </p>
 
               {/* social media */}
-            <div className="text-sm mt-2 font-semibold leading-6 text-gray-900 bg-gray-300 p-2 rounded-xl border-2 border-gray-400">
+            <div className="text-sm mt-4 font-semibold leading-6 text-gray-900 bg-gray-300 p-2 rounded-xl border-2 border-gray-400">
               <div className="grid lg:grid-flow-col">
                 <div className="flex flex-row justify-center my-2">
                   <img
@@ -192,18 +194,16 @@ function page() {
         </div>
       </div>
       {/* -------------- */}
-      <div className="bg-white py-4 sm:py-8 border-t-4 border-gray-500">
-        <div className="mx-auto max-w-7xl px-4 lg:px-4">
+      <div className="bg-gray-100 py-4 sm:py-8 border-t-4 border-gray-400">
+        <div className="mx-auto max-w-6xl px-4 lg:px-4">
        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-3xl">
-              Lorem ipsum dolor sit amet
+              Our Location
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+              Finding us is easy! Utilize the map below, for precise directions to our location.<br/> If you have any questions, our friendly team is ready to assist you.
             </p>
           
-          <div className="mx-auto  max-w-2xl lg:max-w-4xl">
+          <div className="mx-auto mt-4  max-w-2xl lg:max-w-4xl">
             <div className="isolate bg-gray-700 px-6 py-14 sm:py-12 lg:px-8">
             
               <div className="mx-auto max-w-2xl text-center">

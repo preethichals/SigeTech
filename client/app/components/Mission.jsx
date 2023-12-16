@@ -1,6 +1,5 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 
 const includedFeatures = [
   "Our vision is to be a catalyst for educational transformation, inspiring learners worldwide to explore, innovate, and excel in STEM disciplines.",

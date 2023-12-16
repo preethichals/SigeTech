@@ -58,7 +58,7 @@ function page() {
 </div>
 
 {/* 3D printing solutions */}
-      <div className=" bg-gray-200">
+      <div className="bg-gray-100 border-b-2">
        
        <div className="mx-auto py-4 max-w-5xl sm:text-center text-center p-2">
           <h2 className="lg:text-5xl font-bold tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
@@ -87,7 +87,7 @@ team employs advanced technology to deliver high-quality 3D prints for various a
                     />{" "}
                   </Link>
                 </div>
-                <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+                <div className=" bg-white mt-4 bg-opacity-80 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-teal-800 font-medium uppercase tracking-wide ">
                      3D Printing Services

@@ -53,7 +53,7 @@ function Robots() {
                 View Our Services <span aria-hidden="true">&rarr;</span>
               </Link>
             </div>
-            <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+            <div className=" bg-white mt-4 bg-opacity-80 rounded-lg py-3 px-5">
               <h1 className="mb-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                 <span className=" leading-relaxed text-gray-700 ">
                   Learn, Build and Deploy <br />
@@ -62,7 +62,7 @@ function Robots() {
                   Robotic Technology
                 </span>
               </h1>
-              <p className="my-6 sm:text-xl uppercase text-xl tracking-widest font-semibold pt-4 text-neutral-700 text-center leading-loose border-t border-gray-300">
+              <p className="my-6 sm:text-xl uppercase text-xl tracking-widest font-semibold pt-4 text-neutral-700 text-center leading-loose border-t border-gray-500">
                 To Automate Your Real-World Environment
               </p>
             </div>
@@ -70,8 +70,8 @@ function Robots() {
         </div>
 
         {/* Three Category */}
-        <div className=" bg-gray-200 pb-6">
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className=" bg-white pb-6">
+          <div className="mx-auto px-2 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-2xl py-2 sm:py-4 lg:max-w-none lg:py-2">
               <div className="mx-auto my-1 p-6  rounded-lg">
                 <h4 className="text-3xl text-center font-light tracking-widest capitalize bg-emerald-600 text-gray-100 sm:text-2xl py-3">
@@ -86,13 +86,13 @@ function Robots() {
                 {callouts.map((callout) => (
                   <div
                     key={callout.name}
-                    className="group relative bg-neutral-200 rounded-xl p-4"
+                    className="group relative bg-neutral-200 rounded-xl p-4 border-2 border-gray-300"
                   >
                     <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                       <img
                         src={callout.imageSrc}
                         alt={callout.imageAlt}
-                        className="h-full w-full object-cover object-center"
+                        className="h-full w-full object-cover object-center p-1"
                       />
                     </div>
 

@@ -59,14 +59,7 @@ function Footer() {
                       className="me-2"
                     />{" "}
                   </Link>
-                  <Link href="" target="_blank" rel="noopener noreferrer">
-                    <img
-                      src="/Facebook.png"
-                      width={30}
-                      height={30}
-                      className="me-2"
-                    />
-                  </Link>{" "}
+                  
                   <Link
                     href="https://wa.me/<number>"
                     target="_blank"
@@ -87,6 +80,7 @@ function Footer() {
                       className="me-2"
                     />
                   </Link>
+                  
                 </span>
               </div>
             </li>

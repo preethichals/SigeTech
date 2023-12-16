@@ -58,7 +58,7 @@ function page() {
 </div>   
  
 {/* Robotics Lab Setup */}
-      <div className=" bg-gray-200">
+      <div className="bg-gray-100 border-b-2">
        
          <div className="mx-auto max-w-7xl sm:text-center text-center p-4">
           <h2 className="lg:text-5xl font-bold  pb-4 tracking-wide  text-gray-900 sm:text-3xl md:text-3xl flex-wrap">
@@ -84,7 +84,7 @@ and practical exploration in the realm of<span className=" text-emerald-800">rob
                     />{" "}
                   </Link>
                 </div>
-                <div className=" bg-gray-200 mt-4 bg-opacity-70 rounded-lg py-3 px-5">
+                <div className=" bg-white mt-4 bg-opacity-80 rounded-lg py-3 px-5">
                   <h1 className="my-4 text-4xl font-medium text-gray-900  md:text-5xl lg:text-5xl sm:text-5xl">
                     <span className=" text-teal-800 font-medium uppercase tracking-wide ">
                       Robotics Lab Setup
