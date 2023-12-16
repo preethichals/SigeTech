@@ -38,7 +38,7 @@ function Header() {
               <div className="flex-grow sm:w-52 w-52">
                 <Link href="/">
                   <img
-                    src="/SigeTech-Logo.jpg"
+                    src="/Logo.jpg"
                     alt="logo"
                     className=" min:w-56 object-cover object-center sm:w-56 w-44"
                   />
