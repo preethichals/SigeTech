@@ -18,7 +18,7 @@ function Footer() {
               href="mailto:peterindia@gmail.com"
               className="hover:underline"
             >
-              SigeTech™
+              StemTec™
             </Link>
             . All Rights Reserved.
           </span>

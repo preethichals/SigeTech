@@ -51,7 +51,7 @@ function page() {
             </p>
 
               {/* social media */}
-            <div className="text-sm mt-2 font-semibold leading-6 text-gray-900 bg-gray-200 p-2 rounded-xl border-2 border-gray-400">
+            <div className="text-sm mt-2 font-semibold leading-6 text-gray-900 bg-gray-300 p-2 rounded-xl border-2 border-gray-400">
               <div className="grid lg:grid-flow-col">
                 <div className="flex flex-row justify-center my-2">
                   <img
@@ -81,7 +81,7 @@ function page() {
             
               <span aria-hidden="true"></span>
             </div>
-             <div className="text-sm mt-2 font-semibold leading-6 text-gray-900 bg-gray-200 p-2 rounded-xl border-2 border-gray-400">
+             <div className="text-sm mt-2 font-semibold leading-6 text-gray-900 bg-gray-300 p-2 rounded-xl border-2 border-gray-400">
               <div className="grid lg:grid-flow-col">
                 <div className="flex flex-row justify-center items-center my-2">
                   <img
@@ -91,7 +91,7 @@ function page() {
                     className="me-2"
                   />
                   <section>
-                    <p className=" tracking-wide">wwww.sigetec.in</p>
+                    <p className=" tracking-wide">wwww.stemtec.in</p>
                    
                   </section>
                 </div>
@@ -113,33 +113,10 @@ function page() {
             </div>
              
           </div>
-          {/* location */}
- <div className="mt-4 py-12 px-4 grid lg:grid-flow-col justify-center border-2 border-gray-400 bg-gray-700 p-2 rounded-xl">
-               
-                <div className="flex flex-row  items-center my-2">
-                  <img src="/map.png" width={50} height={50} className="me-6" />
-                  <section className="items-center text-white">
-                    <p className=" tracking-wide">
-                      603, 3rd street, 
-                      
-                    </p>
-                    <p className=" tracking-wide">Vandalur - Kelambakkam Road,</p>
-                    <p className=" tracking-wide">Samathuvapuram, Mambakkam, Chennai-600127.</p>
-                  </section>
-                </div>
-              </div>
         
-        </div>
-      </div>
-      {/* -------------- */}
-      <div className="bg-gray-400 py-4 sm:py-4">
-        <div className="mx-auto max-w-7xl px-4 lg:px-4">
-          
-          <div className="mx-auto  max-w-2xl lg:max-w-5xl">
-            <div className="isolate bg-white px-6 py-14 sm:py-12 lg:px-8">
-            
-               {/* contact us form */}
-              <form
+         {/* contact us form */}
+          <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:gap-8 my-auto">
+            <form
               className="mx-auto mt-6 max-w-xl sm:mt-8"
               ref={form}
               onSubmit={sendEmail}
@@ -211,6 +188,42 @@ function page() {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+      {/* -------------- */}
+      <div className="bg-white py-4 sm:py-8 border-t-4 border-gray-500">
+        <div className="mx-auto max-w-7xl px-4 lg:px-4">
+       <p className="mt-2 text-3xl font-bold tracking-tight text-gray-600 sm:text-3xl">
+              Lorem ipsum dolor sit amet
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
+              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
+              at. In mi viverra elit nunc.
+            </p>
+          
+          <div className="mx-auto  max-w-2xl lg:max-w-4xl">
+            <div className="isolate bg-gray-700 px-6 py-14 sm:py-12 lg:px-8">
+            
+              <div className="mx-auto max-w-2xl text-center">
+                  {/* location */}
+ <div className="mx-4 justify-center border-2 border-gray-400 bg-gray-700 p-2 rounded-xl">
+               
+                <div className="flex flex-row  items-center my-2 mx-4">
+                  <img src="/map.png" width={50} height={50} className="me-6" />
+                  <section className="items-center text-white">
+                    <p className=" tracking-wide">
+                      #603, 3rd street, 
+                      
+                    </p>
+                    <p className=" tracking-wide">Vandalur - Kelambakkam Road,</p>
+                    <p className=" tracking-wide">Samathuvapuram, Mambakkam, Chennai-600127.</p>
+                  </section>
+                </div>
+              </div>
+              </div>
+             
             </div>
           </div>
         </div>

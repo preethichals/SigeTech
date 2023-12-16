@@ -82,7 +82,7 @@ function Header() {
                 className="-m-1.5 p-1.5 font-semibold tracking-wide  rounded-md"
               >
                 <span className="sr-only">Logo</span>
-                Welcome to Sige Tech
+                Welcome to Stem Tech
              </Link> */}
               <button
                 type="button"
